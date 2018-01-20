@@ -20,7 +20,7 @@
 
 ## What's this?
 
-Extensions for `SuperAlertController`.
+Extensions for [`SuperAlertController`](https://github.com/Meniny/SuperAlertController/).
 
 ## Requirements
 
