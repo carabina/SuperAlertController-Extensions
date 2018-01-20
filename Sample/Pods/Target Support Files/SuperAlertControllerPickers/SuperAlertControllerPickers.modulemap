@@ -1,0 +1,6 @@
+framework module SuperAlertControllerPickers {
+  umbrella header "SuperAlertControllerPickers-umbrella.h"
+
+  export *
+  module * { export * }
+}

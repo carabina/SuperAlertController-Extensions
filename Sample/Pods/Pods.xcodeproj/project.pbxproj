@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02920F823C4FE7D5C8D403F003502B80 /* SuperAlertControllerPickers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A654F63295873B6EAC0BA256FE3B3FC6 /* SuperAlertControllerPickers-dummy.m */; };
+		0560EE919EF13C0A95C3B3450DD99BAB /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C842FA5FE6BF93C678C03D05D724233 /* PickerViewViewController.swift */; };
+		0FA0C2CC396FAB51C1729D0765B5F46E /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7107682D6228A20601F7DF9F49F5D51A /* ColorPickerViewController.swift */; };
+		1660ABB6933E130298DD5BF42579981F /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD91D04DD5D5A4545B633EAEB75DAB /* Array+Extensions.swift */; };
+		1B33AF9FE15D5B0C08603C4DE9719AC5 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEF5AFDAB5017057C587A5CB655DD8B /* UIColor+Extensions.swift */; };
+		1BD7D1E777930735712C4F3AAFD9E4CB /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012DCB97B51DA01F4A85A445FC216AD5 /* Label.swift */; };
+		22259A4898B4BCD9CAA29701E77948EA /* SuperAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F35A26D98857A67DB10543FC58CB23 /* SuperAlertController-dummy.m */; };
+		263FA5E0FACA58F6EB4EF6AB08518E60 /* TwoTextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F950270EF66FB14DD717E383330A86 /* TwoTextFieldsViewController.swift */; };
+		2D2AD315967B2C99396190ACE7E62CF5 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E88037948ED417FE5DD5768DB068B1 /* String+Extensions.swift */; };
+		2F24FFEBAD445219929E31CFB347BDA2 /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9250F16F6CBDCE63AE2DFA1310D2670 /* UISegmentedControl+Extensions.swift */; };
+		304EE51374F683778A3882FE12ECE6BC /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF03AE1C3FD028583A4A40E658C118 /* UIImage+Extensions.swift */; };
+		38049865E9C0E3F7832683B8A4E5C01E /* Pods-Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF50723EE695E440CDA214119EF2C70 /* Pods-Sample-dummy.m */; };
+		47C15B67C331FBF4FD7F465F804853EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157357837A125D278F0FC7B5BA8E9DAE /* Foundation.framework */; };
+		5045D7B8EAB04C36E6F208FCC065F926 /* Pods-Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 630DD76D417453483F37DBAE838D5518 /* Pods-Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5840DB2427C7DBF800ACEFAD296B68CA /* Countries.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA4527570DE13DC5692AA329BD283B71 /* Countries.bundle */; };
+		5D65A6810A50A2288FD1F0BF647B2729 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F3FD76AE1F3ED98BBB684007491AB9 /* UIAlertController+Extensions.swift */; };
+		5FE4E8F3DA7EB4147076C8A29983BC0C /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3153746ADD49B908F5F867F48EF6FEF /* Locale+Extensions.swift */; };
+		610696C2D39AD92F27E834048E7E192F /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE1F9E8CD62C5252BBCB0B37C5A6D4 /* TextField.swift */; };
+		674FACEDBBAEA14215FA6ED20603E056 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CD630FF203145D9B9AEAA827758386 /* Date+Extension.swift */; };
+		6D6FB60533F7E190709FE029B1595EE5 /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C843C520407A20447CB6747FCA39E460 /* UITextView+Extensions.swift */; };
+		7502D34AF999479FBED5C4ECFE70467B /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06FDBE0FC090C06EDACDC11E7C92CC3 /* GradientSlider.swift */; };
+		855D4FFCC890603593F862D76DDC9077 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0206924C0B67488542464023346BA /* UITextField+Extensions.swift */; };
+		8F921B946682C3A664B4C9DC2B0DC7F2 /* LocalePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D427DDB8A6EA2EDD7EA5C847D6F3261 /* LocalePickerViewController.swift */; };
+		911367A8092C886A34C573E9F75707DD /* OneTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938D97DEE67EE25D887BA50EB7EE200 /* OneTextFieldViewController.swift */; };
+		AD034C32C56BD81C2F574E2A6085A9F7 /* SuperAlertControllerPickers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2222F12EEFD7D5F4F60111078863AF9F /* SuperAlertControllerPickers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE92415D45031CA9F5FB8FF708420800 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157357837A125D278F0FC7B5BA8E9DAE /* Foundation.framework */; };
+		B158496C791E06FC03A8347D44EB2937 /* UIAlertController+QuickUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBCB190EDDBBCCA0D9C90B6492058C /* UIAlertController+QuickUsage.swift */; };
+		BC56F1A97C2E072AA8F185497A065CBC /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469FDE8EF1D5A73B220CE214709F02D0 /* SegmentedControl.swift */; };
+		C39306589749617EDB61E1DC104C4482 /* SuperAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69936BAC2793AFC87DE74EC390D2035A /* SuperAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD870B7A3C704FEA0AFA5E8FAB47EB0A /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574889D4091F84F132EC2F71DA961B9 /* UIView+Extensions.swift */; };
+		DAF7A863A280F3A62BC1C6AE2DE330A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157357837A125D278F0FC7B5BA8E9DAE /* Foundation.framework */; };
+		DFB8C281CBAA49038D77F887E0A7C5A4 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D042C27DFE022002F7C50E6F0DA1ACF /* ImagePickerViewController.swift */; };
+		E6F051081EBF2F89567F00035F6FD45B /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA772984C782D2CAADE5A4B81C7702BD /* DatePickerViewController.swift */; };
+		E95B84514B8716DAFF6E3DAB34496336 /* SuperAlertController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB7A9EA200EA97F8B2F0410D8DCF5A9 /* SuperAlertController.framework */; };
+		F9CD7BEE7898DD47A7ECCAEAA6F5A770 /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74ECF87C9E8C30A500058E32BCD3306 /* Optional+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3122D7DB2BD2E36D417FCF614C749343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5110DD1194899FA91EDA4ED707BFFC22;
+			remoteInfo = SuperAlertController;
+		};
+		3C59EB60E9F3727C262CCCE2522A32AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02DA78E9D2E2F7769A9B2D565167BAB0;
+			remoteInfo = SuperAlertControllerPickers;
+		};
+		60C53857DDAC2D0CA231218EE139EABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5110DD1194899FA91EDA4ED707BFFC22;
+			remoteInfo = SuperAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012DCB97B51DA01F4A85A445FC216AD5 /* Label.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		05FC1B3E2D435D4568C3123ED2A72022 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sample.framework; path = "Pods-Sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A971674A8B9D3B2C9AE578FA7837E7B /* SuperAlertControllerPickers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperAlertControllerPickers.xcconfig; sourceTree = "<group>"; };
+		0CA16A159F9D012A24002708A7DCB19A /* SuperAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperAlertController.xcconfig; sourceTree = "<group>"; };
+		157357837A125D278F0FC7B5BA8E9DAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		161FD1626938094EEC6BF57530EDB6DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9E7A40B0766100CB13ECB90797F4DE /* SuperAlertControllerPickers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperAlertControllerPickers-prefix.pch"; sourceTree = "<group>"; };
+		2222F12EEFD7D5F4F60111078863AF9F /* SuperAlertControllerPickers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperAlertControllerPickers-umbrella.h"; sourceTree = "<group>"; };
+		25CD630FF203145D9B9AEAA827758386 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		2CB7A9EA200EA97F8B2F0410D8DCF5A9 /* SuperAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC09CD8B8E69AF75B7A601992EF39BD /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
+		2FDF78216A41DB691C5960FEE69EB9FD /* Pods-Sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-resources.sh"; sourceTree = "<group>"; };
+		33F950270EF66FB14DD717E383330A86 /* TwoTextFieldsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TwoTextFieldsViewController.swift; sourceTree = "<group>"; };
+		34FBDF771FB69A3696501977821E0187 /* SuperAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SuperAlertController.modulemap; sourceTree = "<group>"; };
+		37E6FF180E13B6C773AEF2B4E045779F /* SuperAlertControllerPickers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SuperAlertControllerPickers.modulemap; sourceTree = "<group>"; };
+		39FBCB190EDDBBCCA0D9C90B6492058C /* UIAlertController+QuickUsage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+QuickUsage.swift"; path = "SuperAlertController/UIAlertController+QuickUsage.swift"; sourceTree = "<group>"; };
+		3AE375A74D27FC41E7BB6C006DFC76A6 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		469FDE8EF1D5A73B220CE214709F02D0 /* SegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		4AF50723EE695E440CDA214119EF2C70 /* Pods-Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sample-dummy.m"; sourceTree = "<group>"; };
+		52AEA6D36F7C22A03BDAAB37E56FC66A /* SuperAlertControllerPickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SuperAlertControllerPickers.framework; path = SuperAlertControllerPickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		630DD76D417453483F37DBAE838D5518 /* Pods-Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sample-umbrella.h"; sourceTree = "<group>"; };
+		69936BAC2793AFC87DE74EC390D2035A /* SuperAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperAlertController-umbrella.h"; sourceTree = "<group>"; };
+		69B42001AC70716C5AD5834FFC427CA7 /* SuperAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperAlertController-prefix.pch"; sourceTree = "<group>"; };
+		6D65DC53E876D33B73CCFEE44C379EE1 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		7107682D6228A20601F7DF9F49F5D51A /* ColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		735E5204C40E887244F2B75BCCDF2572 /* Pods-Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Sample.modulemap"; sourceTree = "<group>"; };
+		76465E0CBED4C456513D84FFCFF25D2B /* SuperAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SuperAlertController.framework; path = SuperAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D042C27DFE022002F7C50E6F0DA1ACF /* ImagePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		8D427DDB8A6EA2EDD7EA5C847D6F3261 /* LocalePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalePickerViewController.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C842FA5FE6BF93C678C03D05D724233 /* PickerViewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		9C896AB03AD02637A2108FF27D207683 /* Pods-Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-frameworks.sh"; sourceTree = "<group>"; };
+		9CEF5AFDAB5017057C587A5CB655DD8B /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		9FCFAC9E567878C7B5458F5B8D00B85C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A06FDBE0FC090C06EDACDC11E7C92CC3 /* GradientSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
+		A21D9B3C2775E7C503E601A5737980FB /* Pods-Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4F67C9E66E8D9E97F11042B162517EB /* Pods-Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample-acknowledgements.plist"; sourceTree = "<group>"; };
+		A654F63295873B6EAC0BA256FE3B3FC6 /* SuperAlertControllerPickers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperAlertControllerPickers-dummy.m"; sourceTree = "<group>"; };
+		A8F3FD76AE1F3ED98BBB684007491AB9 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+Extensions.swift"; path = "SuperAlertController/UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		A9250F16F6CBDCE63AE2DFA1310D2670 /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
+		AE2846D9FE21DF43346BD9738BD29F07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3153746ADD49B908F5F867F48EF6FEF /* Locale+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
+		B3EF03AE1C3FD028583A4A40E658C118 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		C1E88037948ED417FE5DD5768DB068B1 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		C843C520407A20447CB6747FCA39E460 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
+		C938D97DEE67EE25D887BA50EB7EE200 /* OneTextFieldViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OneTextFieldViewController.swift; sourceTree = "<group>"; };
+		CA772984C782D2CAADE5A4B81C7702BD /* DatePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		D08918E8C649F25919C3494E72AE37C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1A0206924C0B67488542464023346BA /* UITextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		DA4527570DE13DC5692AA329BD283B71 /* Countries.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Countries.bundle; path = Source/Countries.bundle; sourceTree = "<group>"; };
+		DCBE1F9E8CD62C5252BBCB0B37C5A6D4 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		E31FA3AA94C8D338AC638C72979D1E9B /* SuperAlertControllerPickers.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SuperAlertControllerPickers.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E574889D4091F84F132EC2F71DA961B9 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		E74ECF87C9E8C30A500058E32BCD3306 /* Optional+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		F9F35A26D98857A67DB10543FC58CB23 /* SuperAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperAlertController-dummy.m"; sourceTree = "<group>"; };
+		FBDD91D04DD5D5A4545B633EAEB75DAB /* Array+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169B026E82FC30ED0529E4F08DD9727B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C15B67C331FBF4FD7F465F804853EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6379ECCFB2B2EF1771612B1B1D96A4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF7A863A280F3A62BC1C6AE2DE330A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EA1D3B1350E11929685823FC04CBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE92415D45031CA9F5FB8FF708420800 /* Foundation.framework in Frameworks */,
+				E95B84514B8716DAFF6E3DAB34496336 /* SuperAlertController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15E6469BB57E5EFFC97820D2C06996C5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2EC09CD8B8E69AF75B7A601992EF39BD /* LICENSE.md */,
+				9FCFAC9E567878C7B5458F5B8D00B85C /* README.md */,
+				E31FA3AA94C8D338AC638C72979D1E9B /* SuperAlertControllerPickers.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2A179D68931341FD56B822547CD17955 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBDD91D04DD5D5A4545B633EAEB75DAB /* Array+Extensions.swift */,
+				25CD630FF203145D9B9AEAA827758386 /* Date+Extension.swift */,
+				B3153746ADD49B908F5F867F48EF6FEF /* Locale+Extensions.swift */,
+				E74ECF87C9E8C30A500058E32BCD3306 /* Optional+Extensions.swift */,
+				C1E88037948ED417FE5DD5768DB068B1 /* String+Extensions.swift */,
+				9CEF5AFDAB5017057C587A5CB655DD8B /* UIColor+Extensions.swift */,
+				B3EF03AE1C3FD028583A4A40E658C118 /* UIImage+Extensions.swift */,
+				A9250F16F6CBDCE63AE2DFA1310D2670 /* UISegmentedControl+Extensions.swift */,
+				D1A0206924C0B67488542464023346BA /* UITextField+Extensions.swift */,
+				C843C520407A20447CB6747FCA39E460 /* UITextView+Extensions.swift */,
+				E574889D4091F84F132EC2F71DA961B9 /* UIView+Extensions.swift */,
+			);
+			name = Extensions;
+			path = Source/Extensions;
+			sourceTree = "<group>";
+		};
+		2B681F45C01ACD2D3D9E92923380C9C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA4527570DE13DC5692AA329BD283B71 /* Countries.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7012AB37E6E034114C6E84084408112B /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				7107682D6228A20601F7DF9F49F5D51A /* ColorPickerViewController.swift */,
+				CA772984C782D2CAADE5A4B81C7702BD /* DatePickerViewController.swift */,
+				7D042C27DFE022002F7C50E6F0DA1ACF /* ImagePickerViewController.swift */,
+				8D427DDB8A6EA2EDD7EA5C847D6F3261 /* LocalePickerViewController.swift */,
+				C938D97DEE67EE25D887BA50EB7EE200 /* OneTextFieldViewController.swift */,
+				9C842FA5FE6BF93C678C03D05D724233 /* PickerViewViewController.swift */,
+				33F950270EF66FB14DD717E383330A86 /* TwoTextFieldsViewController.swift */,
+			);
+			name = Pickers;
+			path = Source/Pickers;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A4C96FEEB7AF0D7287C3C894FC47AB2D /* Development Pods */,
+				D1F4E117E2EBB6BA59989E5F9360DFF7 /* Frameworks */,
+				A9C058C8918107DE1CC406B3C57D0E1C /* Pods */,
+				9BB82EB8634015FC074703C7E1697FCF /* Products */,
+				A8614ADDDA2C845A05B4D5D16AB12C48 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		945AE95669259646C38E2382757DA147 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE2846D9FE21DF43346BD9738BD29F07 /* Info.plist */,
+				37E6FF180E13B6C773AEF2B4E045779F /* SuperAlertControllerPickers.modulemap */,
+				0A971674A8B9D3B2C9AE578FA7837E7B /* SuperAlertControllerPickers.xcconfig */,
+				A654F63295873B6EAC0BA256FE3B3FC6 /* SuperAlertControllerPickers-dummy.m */,
+				1A9E7A40B0766100CB13ECB90797F4DE /* SuperAlertControllerPickers-prefix.pch */,
+				2222F12EEFD7D5F4F60111078863AF9F /* SuperAlertControllerPickers-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Sample/Pods/Target Support Files/SuperAlertControllerPickers";
+			sourceTree = "<group>";
+		};
+		9A4532A6A34C847AD5CC61AD8FEE5F75 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				157357837A125D278F0FC7B5BA8E9DAE /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9BB82EB8634015FC074703C7E1697FCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05FC1B3E2D435D4568C3123ED2A72022 /* Pods_Sample.framework */,
+				76465E0CBED4C456513D84FFCFF25D2B /* SuperAlertController.framework */,
+				52AEA6D36F7C22A03BDAAB37E56FC66A /* SuperAlertControllerPickers.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4C96FEEB7AF0D7287C3C894FC47AB2D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E860A7305C3CC554249189829E787FF5 /* SuperAlertControllerPickers */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A8614ADDDA2C845A05B4D5D16AB12C48 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5639CAB18577B4EDAE07E0E34E188C /* Pods-Sample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A9C058C8918107DE1CC406B3C57D0E1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD2AB8BAD94B37BB009614E0A957E77E /* SuperAlertController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF5639CAB18577B4EDAE07E0E34E188C /* Pods-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				161FD1626938094EEC6BF57530EDB6DA /* Info.plist */,
+				735E5204C40E887244F2B75BCCDF2572 /* Pods-Sample.modulemap */,
+				A21D9B3C2775E7C503E601A5737980FB /* Pods-Sample-acknowledgements.markdown */,
+				A4F67C9E66E8D9E97F11042B162517EB /* Pods-Sample-acknowledgements.plist */,
+				4AF50723EE695E440CDA214119EF2C70 /* Pods-Sample-dummy.m */,
+				9C896AB03AD02637A2108FF27D207683 /* Pods-Sample-frameworks.sh */,
+				2FDF78216A41DB691C5960FEE69EB9FD /* Pods-Sample-resources.sh */,
+				630DD76D417453483F37DBAE838D5518 /* Pods-Sample-umbrella.h */,
+				3AE375A74D27FC41E7BB6C006DFC76A6 /* Pods-Sample.debug.xcconfig */,
+				6D65DC53E876D33B73CCFEE44C379EE1 /* Pods-Sample.release.xcconfig */,
+			);
+			name = "Pods-Sample";
+			path = "Target Support Files/Pods-Sample";
+			sourceTree = "<group>";
+		};
+		C6B7457ADA6AD7490866B27B21A2459C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A06FDBE0FC090C06EDACDC11E7C92CC3 /* GradientSlider.swift */,
+				012DCB97B51DA01F4A85A445FC216AD5 /* Label.swift */,
+				469FDE8EF1D5A73B220CE214709F02D0 /* SegmentedControl.swift */,
+				DCBE1F9E8CD62C5252BBCB0B37C5A6D4 /* TextField.swift */,
+			);
+			name = Views;
+			path = Source/Views;
+			sourceTree = "<group>";
+		};
+		CD2AB8BAD94B37BB009614E0A957E77E /* SuperAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				A8F3FD76AE1F3ED98BBB684007491AB9 /* UIAlertController+Extensions.swift */,
+				39FBCB190EDDBBCCA0D9C90B6492058C /* UIAlertController+QuickUsage.swift */,
+				FE79D0E772A5D515E74E38CACE9C0A24 /* Support Files */,
+			);
+			name = SuperAlertController;
+			path = SuperAlertController;
+			sourceTree = "<group>";
+		};
+		D1F4E117E2EBB6BA59989E5F9360DFF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CB7A9EA200EA97F8B2F0410D8DCF5A9 /* SuperAlertController.framework */,
+				9A4532A6A34C847AD5CC61AD8FEE5F75 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E860A7305C3CC554249189829E787FF5 /* SuperAlertControllerPickers */ = {
+			isa = PBXGroup;
+			children = (
+				2A179D68931341FD56B822547CD17955 /* Extensions */,
+				7012AB37E6E034114C6E84084408112B /* Pickers */,
+				15E6469BB57E5EFFC97820D2C06996C5 /* Pod */,
+				2B681F45C01ACD2D3D9E92923380C9C9 /* Resources */,
+				945AE95669259646C38E2382757DA147 /* Support Files */,
+				C6B7457ADA6AD7490866B27B21A2459C /* Views */,
+			);
+			name = SuperAlertControllerPickers;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FE79D0E772A5D515E74E38CACE9C0A24 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D08918E8C649F25919C3494E72AE37C9 /* Info.plist */,
+				34FBDF771FB69A3696501977821E0187 /* SuperAlertController.modulemap */,
+				0CA16A159F9D012A24002708A7DCB19A /* SuperAlertController.xcconfig */,
+				F9F35A26D98857A67DB10543FC58CB23 /* SuperAlertController-dummy.m */,
+				69B42001AC70716C5AD5834FFC427CA7 /* SuperAlertController-prefix.pch */,
+				69936BAC2793AFC87DE74EC390D2035A /* SuperAlertController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SuperAlertController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		496E23DE46FB1596F36ACF494761A768 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39306589749617EDB61E1DC104C4482 /* SuperAlertController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6A9F884D2068E3B72E6919B9E17390 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5045D7B8EAB04C36E6F208FCC065F926 /* Pods-Sample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30E0D0BBF281B4BAC5F9D288A37AC9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD034C32C56BD81C2F574E2A6085A9F7 /* SuperAlertControllerPickers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02DA78E9D2E2F7769A9B2D565167BAB0 /* SuperAlertControllerPickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AA42973976417EC53C632830F34074 /* Build configuration list for PBXNativeTarget "SuperAlertControllerPickers" */;
+			buildPhases = (
+				590B6FB18090921A1C63462125E0F1CF /* Sources */,
+				80EA1D3B1350E11929685823FC04CBCB /* Frameworks */,
+				886900931F11654F5F42F0535B5DC268 /* Resources */,
+				E30E0D0BBF281B4BAC5F9D288A37AC9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDDB7C088F9F979B969D246EDB0AFA6 /* PBXTargetDependency */,
+			);
+			name = SuperAlertControllerPickers;
+			productName = SuperAlertControllerPickers;
+			productReference = 52AEA6D36F7C22A03BDAAB37E56FC66A /* SuperAlertControllerPickers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		122D36EBC3342DADD84062317D3A90C9 /* Pods-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3E6FD49C2DBD4C405654FFCF61B37B /* Build configuration list for PBXNativeTarget "Pods-Sample" */;
+			buildPhases = (
+				5D3AA23F68973953A0F7929928D05F2A /* Sources */,
+				169B026E82FC30ED0529E4F08DD9727B /* Frameworks */,
+				8F6A9F884D2068E3B72E6919B9E17390 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F72C88689784801DF4988EC1D2AF725 /* PBXTargetDependency */,
+				C279173081215E7D261BFF5A584ED83D /* PBXTargetDependency */,
+			);
+			name = "Pods-Sample";
+			productName = "Pods-Sample";
+			productReference = 05FC1B3E2D435D4568C3123ED2A72022 /* Pods_Sample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5110DD1194899FA91EDA4ED707BFFC22 /* SuperAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9549AEDA3247A11835D8B3671347807 /* Build configuration list for PBXNativeTarget "SuperAlertController" */;
+			buildPhases = (
+				C640BE8E7640887F428699F9D667BDD9 /* Sources */,
+				6379ECCFB2B2EF1771612B1B1D96A4C4 /* Frameworks */,
+				496E23DE46FB1596F36ACF494761A768 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperAlertController;
+			productName = SuperAlertController;
+			productReference = 76465E0CBED4C456513D84FFCFF25D2B /* SuperAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9BB82EB8634015FC074703C7E1697FCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				122D36EBC3342DADD84062317D3A90C9 /* Pods-Sample */,
+				5110DD1194899FA91EDA4ED707BFFC22 /* SuperAlertController */,
+				02DA78E9D2E2F7769A9B2D565167BAB0 /* SuperAlertControllerPickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		886900931F11654F5F42F0535B5DC268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5840DB2427C7DBF800ACEFAD296B68CA /* Countries.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		590B6FB18090921A1C63462125E0F1CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1660ABB6933E130298DD5BF42579981F /* Array+Extensions.swift in Sources */,
+				0FA0C2CC396FAB51C1729D0765B5F46E /* ColorPickerViewController.swift in Sources */,
+				674FACEDBBAEA14215FA6ED20603E056 /* Date+Extension.swift in Sources */,
+				E6F051081EBF2F89567F00035F6FD45B /* DatePickerViewController.swift in Sources */,
+				7502D34AF999479FBED5C4ECFE70467B /* GradientSlider.swift in Sources */,
+				DFB8C281CBAA49038D77F887E0A7C5A4 /* ImagePickerViewController.swift in Sources */,
+				1BD7D1E777930735712C4F3AAFD9E4CB /* Label.swift in Sources */,
+				5FE4E8F3DA7EB4147076C8A29983BC0C /* Locale+Extensions.swift in Sources */,
+				8F921B946682C3A664B4C9DC2B0DC7F2 /* LocalePickerViewController.swift in Sources */,
+				911367A8092C886A34C573E9F75707DD /* OneTextFieldViewController.swift in Sources */,
+				F9CD7BEE7898DD47A7ECCAEAA6F5A770 /* Optional+Extensions.swift in Sources */,
+				0560EE919EF13C0A95C3B3450DD99BAB /* PickerViewViewController.swift in Sources */,
+				BC56F1A97C2E072AA8F185497A065CBC /* SegmentedControl.swift in Sources */,
+				2D2AD315967B2C99396190ACE7E62CF5 /* String+Extensions.swift in Sources */,
+				02920F823C4FE7D5C8D403F003502B80 /* SuperAlertControllerPickers-dummy.m in Sources */,
+				610696C2D39AD92F27E834048E7E192F /* TextField.swift in Sources */,
+				263FA5E0FACA58F6EB4EF6AB08518E60 /* TwoTextFieldsViewController.swift in Sources */,
+				1B33AF9FE15D5B0C08603C4DE9719AC5 /* UIColor+Extensions.swift in Sources */,
+				304EE51374F683778A3882FE12ECE6BC /* UIImage+Extensions.swift in Sources */,
+				2F24FFEBAD445219929E31CFB347BDA2 /* UISegmentedControl+Extensions.swift in Sources */,
+				855D4FFCC890603593F862D76DDC9077 /* UITextField+Extensions.swift in Sources */,
+				6D6FB60533F7E190709FE029B1595EE5 /* UITextView+Extensions.swift in Sources */,
+				CD870B7A3C704FEA0AFA5E8FAB47EB0A /* UIView+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3AA23F68973953A0F7929928D05F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38049865E9C0E3F7832683B8A4E5C01E /* Pods-Sample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C640BE8E7640887F428699F9D667BDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22259A4898B4BCD9CAA29701E77948EA /* SuperAlertController-dummy.m in Sources */,
+				5D65A6810A50A2288FD1F0BF647B2729 /* UIAlertController+Extensions.swift in Sources */,
+				B158496C791E06FC03A8347D44EB2937 /* UIAlertController+QuickUsage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F72C88689784801DF4988EC1D2AF725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuperAlertController;
+			target = 5110DD1194899FA91EDA4ED707BFFC22 /* SuperAlertController */;
+			targetProxy = 60C53857DDAC2D0CA231218EE139EABF /* PBXContainerItemProxy */;
+		};
+		BDDDB7C088F9F979B969D246EDB0AFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuperAlertController;
+			target = 5110DD1194899FA91EDA4ED707BFFC22 /* SuperAlertController */;
+			targetProxy = 3122D7DB2BD2E36D417FCF614C749343 /* PBXContainerItemProxy */;
+		};
+		C279173081215E7D261BFF5A584ED83D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuperAlertControllerPickers;
+			target = 02DA78E9D2E2F7769A9B2D565167BAB0 /* SuperAlertControllerPickers */;
+			targetProxy = 3C59EB60E9F3727C262CCCE2522A32AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		772A4C1C247B35EAF8873313B2079632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A971674A8B9D3B2C9AE578FA7837E7B /* SuperAlertControllerPickers.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SuperAlertControllerPickers/SuperAlertControllerPickers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperAlertControllerPickers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperAlertControllerPickers/SuperAlertControllerPickers.modulemap";
+				PRODUCT_NAME = SuperAlertControllerPickers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D01CF40ECF7AE7852710ECB96E58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE375A74D27FC41E7BB6C006DFC76A6 /* Pods-Sample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sample/Pods-Sample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Sample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C2E31D7BD47C0665643DA1D9A3C238E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA16A159F9D012A24002708A7DCB19A /* SuperAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SuperAlertController/SuperAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperAlertController/SuperAlertController.modulemap";
+				PRODUCT_NAME = SuperAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8EA8ABBBB270EDC8DFDFC43E44406E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA16A159F9D012A24002708A7DCB19A /* SuperAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SuperAlertController/SuperAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperAlertController/SuperAlertController.modulemap";
+				PRODUCT_NAME = SuperAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAE62B95414DA100D525E5C5B8F68A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A971674A8B9D3B2C9AE578FA7837E7B /* SuperAlertControllerPickers.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SuperAlertControllerPickers/SuperAlertControllerPickers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperAlertControllerPickers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperAlertControllerPickers/SuperAlertControllerPickers.modulemap";
+				PRODUCT_NAME = SuperAlertControllerPickers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE321EDB93597A1DB47B7648D6BE6659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D65DC53E876D33B73CCFEE44C379EE1 /* Pods-Sample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sample/Pods-Sample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Sample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AA42973976417EC53C632830F34074 /* Build configuration list for PBXNativeTarget "SuperAlertControllerPickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772A4C1C247B35EAF8873313B2079632 /* Debug */,
+				CAE62B95414DA100D525E5C5B8F68A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9549AEDA3247A11835D8B3671347807 /* Build configuration list for PBXNativeTarget "SuperAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E31D7BD47C0665643DA1D9A3C238E8 /* Debug */,
+				C8EA8ABBBB270EDC8DFDFC43E44406E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3E6FD49C2DBD4C405654FFCF61B37B /* Build configuration list for PBXNativeTarget "Pods-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D01CF40ECF7AE7852710ECB96E58C /* Debug */,
+				FE321EDB93597A1DB47B7648D6BE6659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
