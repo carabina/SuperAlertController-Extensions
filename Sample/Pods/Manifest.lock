@@ -1,6 +1,6 @@
 PODS:
   - SuperAlertController (1.0.3)
-  - SuperAlertControllerPickers (1.0.0):
+  - SuperAlertControllerPickers (1.0.1):
     - SuperAlertController
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SuperAlertController: 43595e937f5cf466cc076676e7836c281e0b7804
-  SuperAlertControllerPickers: 81b1b714bf7d47ac3bcdce94264dda52eff06057
+  SuperAlertControllerPickers: de53a4851887c936cc6124cd6f2a6e5d4b216b8d
 
 PODFILE CHECKSUM: 0a7bccbf602969d690dc5681d2df8f7d132fe878
 

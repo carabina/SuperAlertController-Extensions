@@ -53,7 +53,7 @@ public final class LocalePickerViewController: UIViewController {
         public var phoneCode: String
         
         public var flag: UIImage? {
-            return UIImage(named: "Countries.bundle/Images/\(code.uppercased())", in: Bundle.main, compatibleWith: nil)
+            return UIImage.init(named: "Countries.bundle/Images/\(code.uppercased())", in: Bundle.SACPBundle, compatibleWith: nil)
         }
         
         public var currencyCode: String? {
@@ -168,7 +168,7 @@ public final class LocalePickerViewController: UIViewController {
     func updateInfo() {
         info = []
         
-        let bundle = Bundle.main//Bundle(for: LocationPickerViewController.self)
+        let bundle = Bundle.SACPBundle//Bundle(for: LocationPickerViewController.self)
         let path = "Countries.bundle/Data/CountryCodes"
         
         guard let jsonPath = bundle.path(forResource: path, ofType: "json"),

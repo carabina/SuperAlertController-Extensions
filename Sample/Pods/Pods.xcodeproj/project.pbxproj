@@ -3,45 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02920F823C4FE7D5C8D403F003502B80 /* SuperAlertControllerPickers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A654F63295873B6EAC0BA256FE3B3FC6 /* SuperAlertControllerPickers-dummy.m */; };
-		0560EE919EF13C0A95C3B3450DD99BAB /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C842FA5FE6BF93C678C03D05D724233 /* PickerViewViewController.swift */; };
-		0FA0C2CC396FAB51C1729D0765B5F46E /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7107682D6228A20601F7DF9F49F5D51A /* ColorPickerViewController.swift */; };
-		1660ABB6933E130298DD5BF42579981F /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD91D04DD5D5A4545B633EAEB75DAB /* Array+Extensions.swift */; };
-		1B33AF9FE15D5B0C08603C4DE9719AC5 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEF5AFDAB5017057C587A5CB655DD8B /* UIColor+Extensions.swift */; };
-		1BD7D1E777930735712C4F3AAFD9E4CB /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012DCB97B51DA01F4A85A445FC216AD5 /* Label.swift */; };
+		03CC431D54239D55FFD7FF09E5EE3B4F /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC34347EA30B26929FDF8278E4F9E285 /* UISegmentedControl+Extensions.swift */; };
+		19306DF2F6FB50FDE136113FA34D1669 /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A323E57DA642AEC35EB0343ACE2C4B0D /* GradientSlider.swift */; };
+		19E967D5FCD9BA88714B4735811B244D /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EDBB76944CEDD22B2D1BE8292FBF40 /* DatePickerViewController.swift */; };
+		1FE9607885C9F980C26054A4F2A19B93 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744CDBA2394A9259EF54BD555D7A8944 /* UIImage+Extensions.swift */; };
+		21897B2578391F57BC375E6222CCD03D /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B5E339BFF5EC9E78B36F0DA7578B9 /* PickerViewViewController.swift */; };
 		22259A4898B4BCD9CAA29701E77948EA /* SuperAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F35A26D98857A67DB10543FC58CB23 /* SuperAlertController-dummy.m */; };
-		263FA5E0FACA58F6EB4EF6AB08518E60 /* TwoTextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F950270EF66FB14DD717E383330A86 /* TwoTextFieldsViewController.swift */; };
-		2D2AD315967B2C99396190ACE7E62CF5 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E88037948ED417FE5DD5768DB068B1 /* String+Extensions.swift */; };
-		2F24FFEBAD445219929E31CFB347BDA2 /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9250F16F6CBDCE63AE2DFA1310D2670 /* UISegmentedControl+Extensions.swift */; };
-		304EE51374F683778A3882FE12ECE6BC /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF03AE1C3FD028583A4A40E658C118 /* UIImage+Extensions.swift */; };
+		2DC76558CA2AB931C5AE6D66D637AAC4 /* ColorPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D22CA8CECFC486FB1A90AC8B532CF26 /* ColorPicker.storyboard */; };
+		30D8C4ECAFFDE54A85811F637D1ADE08 /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0A6D1A9BB278D2965F303BE29248A /* Locale+Extensions.swift */; };
 		38049865E9C0E3F7832683B8A4E5C01E /* Pods-Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF50723EE695E440CDA214119EF2C70 /* Pods-Sample-dummy.m */; };
+		3BAAA5BC1499B5B9668CFFEF446C54F7 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F2A5C54CCF2E883F61A9CE4E58F830 /* Date+Extension.swift */; };
+		4228F4639C2EFB2691E56123A4653A6F /* LocalePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA57CD1C21E91E5FA0C796620EDA2324 /* LocalePickerViewController.swift */; };
 		47C15B67C331FBF4FD7F465F804853EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157357837A125D278F0FC7B5BA8E9DAE /* Foundation.framework */; };
+		4ACF237611B1AC86D7DA985BB0503C7A /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF56FBE07A3FDAEEB1CFC34BCE4A438 /* SegmentedControl.swift */; };
+		4FA2DB31886892BFE91BC055FA090352 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E5BD7B6B20FA8AD1EC3E70D6F8F4D /* UIColor+Extensions.swift */; };
 		5045D7B8EAB04C36E6F208FCC065F926 /* Pods-Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 630DD76D417453483F37DBAE838D5518 /* Pods-Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5840DB2427C7DBF800ACEFAD296B68CA /* Countries.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA4527570DE13DC5692AA329BD283B71 /* Countries.bundle */; };
+		51B7D3F42DE0C72E7D6484E91F8B06DF /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E06B56CB0812AA88901C649503C4134 /* Optional+Extensions.swift */; };
+		5367F4CD4C651752F815DBDDC0C36620 /* OneTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E36606ED4303C95E258FA4C7421C2DE /* OneTextFieldViewController.swift */; };
+		5C19E73620146EBC00E2865A /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C19E73320146E4400E2865A /* CommonExtensions.swift */; };
 		5D65A6810A50A2288FD1F0BF647B2729 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F3FD76AE1F3ED98BBB684007491AB9 /* UIAlertController+Extensions.swift */; };
-		5FE4E8F3DA7EB4147076C8A29983BC0C /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3153746ADD49B908F5F867F48EF6FEF /* Locale+Extensions.swift */; };
-		610696C2D39AD92F27E834048E7E192F /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE1F9E8CD62C5252BBCB0B37C5A6D4 /* TextField.swift */; };
-		674FACEDBBAEA14215FA6ED20603E056 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CD630FF203145D9B9AEAA827758386 /* Date+Extension.swift */; };
-		6D6FB60533F7E190709FE029B1595EE5 /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C843C520407A20447CB6747FCA39E460 /* UITextView+Extensions.swift */; };
-		7502D34AF999479FBED5C4ECFE70467B /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06FDBE0FC090C06EDACDC11E7C92CC3 /* GradientSlider.swift */; };
-		855D4FFCC890603593F862D76DDC9077 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0206924C0B67488542464023346BA /* UITextField+Extensions.swift */; };
-		8F921B946682C3A664B4C9DC2B0DC7F2 /* LocalePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D427DDB8A6EA2EDD7EA5C847D6F3261 /* LocalePickerViewController.swift */; };
-		911367A8092C886A34C573E9F75707DD /* OneTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938D97DEE67EE25D887BA50EB7EE200 /* OneTextFieldViewController.swift */; };
-		AD034C32C56BD81C2F574E2A6085A9F7 /* SuperAlertControllerPickers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2222F12EEFD7D5F4F60111078863AF9F /* SuperAlertControllerPickers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6924EF5E5230B5E2EEF46154D630519B /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07795FA386FDA52ACD561D23A7844FC4 /* Label.swift */; };
+		6A7A89D28DA35C86A936623B93A055A8 /* TwoTextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4373F9E84A07058241B06039FFB744C2 /* TwoTextFieldsViewController.swift */; };
+		6AF56B2D7E0855AD048492217DC3958F /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F10F7426D270DF0FCD0C476CF5D848 /* ImagePickerViewController.swift */; };
+		6B46AEA221FAE1F28C29EBE2F8DC99B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D166B1FB2350561066C13AD9B54AA44A /* Assets.xcassets */; };
+		78603D69B0B0B59CCA925464BF68387F /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE75955ADF9A77B13B98FD0E9FE7CD7 /* UITextView+Extensions.swift */; };
+		890F122DB77DDA47B261C93DBBEE15F0 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C20625030EEF76E39FE499F1DA579C5 /* UITextField+Extensions.swift */; };
+		92185C583AA8B56766C7FA22F6DCDD70 /* Countries.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 015CED31D6493745BE419456D81DD09E /* Countries.bundle */; };
+		A579B3045DCCD8546BF1ED1AB5852EA7 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC38C637E55CC315DA491B4BF944D72 /* UIView+Extensions.swift */; };
+		AD034C32C56BD81C2F574E2A6085A9F7 /* SuperAlertControllerPickers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B772A7B4A433996F2F040E473C521EB /* SuperAlertControllerPickers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0AA653352ACDBBFF9DF8AA66C52784 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A20E7D828924537DFCEB755EB6232B /* ColorPickerViewController.swift */; };
 		AE92415D45031CA9F5FB8FF708420800 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157357837A125D278F0FC7B5BA8E9DAE /* Foundation.framework */; };
 		B158496C791E06FC03A8347D44EB2937 /* UIAlertController+QuickUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBCB190EDDBBCCA0D9C90B6492058C /* UIAlertController+QuickUsage.swift */; };
-		BC56F1A97C2E072AA8F185497A065CBC /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469FDE8EF1D5A73B220CE214709F02D0 /* SegmentedControl.swift */; };
+		B98D5AE34CDA25E166802F1F10FE561C /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C16FF4752B5D65763E77A2E7C0D9A /* Bundle+Extensions.swift */; };
+		BCB59D3C10046572C8873C91CD5872EF /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F1209015F8E71C8EA5D179D98F226 /* TextField.swift */; };
 		C39306589749617EDB61E1DC104C4482 /* SuperAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69936BAC2793AFC87DE74EC390D2035A /* SuperAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD870B7A3C704FEA0AFA5E8FAB47EB0A /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574889D4091F84F132EC2F71DA961B9 /* UIView+Extensions.swift */; };
 		DAF7A863A280F3A62BC1C6AE2DE330A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157357837A125D278F0FC7B5BA8E9DAE /* Foundation.framework */; };
-		DFB8C281CBAA49038D77F887E0A7C5A4 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D042C27DFE022002F7C50E6F0DA1ACF /* ImagePickerViewController.swift */; };
-		E6F051081EBF2F89567F00035F6FD45B /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA772984C782D2CAADE5A4B81C7702BD /* DatePickerViewController.swift */; };
 		E95B84514B8716DAFF6E3DAB34496336 /* SuperAlertController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB7A9EA200EA97F8B2F0410D8DCF5A9 /* SuperAlertController.framework */; };
-		F9CD7BEE7898DD47A7ECCAEAA6F5A770 /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74ECF87C9E8C30A500058E32BCD3306 /* Optional+Extensions.swift */; };
+		F19AE7A909D90B95F5F3D23A79F08BE3 /* SuperAlertControllerPickers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EE27C7E523DD082C171EE9F29181D9 /* SuperAlertControllerPickers-dummy.m */; };
+		F4FA6E468D9920960B157A9928EACF26 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B03AF105131DAACC434A49F9827B38 /* String+Extensions.swift */; };
+		F6BE6F9124C32BB7FE71DDED8CFA92D2 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9FFADD2FBB2C09B1C2761EE341BB6 /* Array+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,62 +73,66 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		012DCB97B51DA01F4A85A445FC216AD5 /* Label.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
-		05FC1B3E2D435D4568C3123ED2A72022 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sample.framework; path = "Pods-Sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A971674A8B9D3B2C9AE578FA7837E7B /* SuperAlertControllerPickers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperAlertControllerPickers.xcconfig; sourceTree = "<group>"; };
+		015CED31D6493745BE419456D81DD09E /* Countries.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Countries.bundle; path = Source/Resources/Countries.bundle; sourceTree = "<group>"; };
+		05FC1B3E2D435D4568C3123ED2A72022 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07795FA386FDA52ACD561D23A7844FC4 /* Label.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		0CA16A159F9D012A24002708A7DCB19A /* SuperAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperAlertController.xcconfig; sourceTree = "<group>"; };
 		157357837A125D278F0FC7B5BA8E9DAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		161FD1626938094EEC6BF57530EDB6DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A9E7A40B0766100CB13ECB90797F4DE /* SuperAlertControllerPickers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperAlertControllerPickers-prefix.pch"; sourceTree = "<group>"; };
-		2222F12EEFD7D5F4F60111078863AF9F /* SuperAlertControllerPickers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperAlertControllerPickers-umbrella.h"; sourceTree = "<group>"; };
-		25CD630FF203145D9B9AEAA827758386 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		1B772A7B4A433996F2F040E473C521EB /* SuperAlertControllerPickers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperAlertControllerPickers-umbrella.h"; sourceTree = "<group>"; };
+		2C9E5BD7B6B20FA8AD1EC3E70D6F8F4D /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		2CB7A9EA200EA97F8B2F0410D8DCF5A9 /* SuperAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EC09CD8B8E69AF75B7A601992EF39BD /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
 		2FDF78216A41DB691C5960FEE69EB9FD /* Pods-Sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-resources.sh"; sourceTree = "<group>"; };
-		33F950270EF66FB14DD717E383330A86 /* TwoTextFieldsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TwoTextFieldsViewController.swift; sourceTree = "<group>"; };
-		34FBDF771FB69A3696501977821E0187 /* SuperAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SuperAlertController.modulemap; sourceTree = "<group>"; };
-		37E6FF180E13B6C773AEF2B4E045779F /* SuperAlertControllerPickers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SuperAlertControllerPickers.modulemap; sourceTree = "<group>"; };
+		3142F31F7CEF97206A4CBC73A40257D7 /* SuperAlertControllerPickers.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SuperAlertControllerPickers.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34A20E7D828924537DFCEB755EB6232B /* ColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		34FBDF771FB69A3696501977821E0187 /* SuperAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SuperAlertController.modulemap; sourceTree = "<group>"; };
+		37F2A5C54CCF2E883F61A9CE4E58F830 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		381F83FE6877C5284C3230EDD834C456 /* SuperAlertControllerPickers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperAlertControllerPickers-prefix.pch"; sourceTree = "<group>"; };
 		39FBCB190EDDBBCCA0D9C90B6492058C /* UIAlertController+QuickUsage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+QuickUsage.swift"; path = "SuperAlertController/UIAlertController+QuickUsage.swift"; sourceTree = "<group>"; };
 		3AE375A74D27FC41E7BB6C006DFC76A6 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		469FDE8EF1D5A73B220CE214709F02D0 /* SegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		3DB84668FCD9CA3F98DB0C8E26B34C66 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		3E06B56CB0812AA88901C649503C4134 /* Optional+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		4373F9E84A07058241B06039FFB744C2 /* TwoTextFieldsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TwoTextFieldsViewController.swift; sourceTree = "<group>"; };
+		45D463A3DBB8BFAA881751AAE4C9FB3F /* SuperAlertControllerPickers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperAlertControllerPickers.xcconfig; sourceTree = "<group>"; };
+		45EE27C7E523DD082C171EE9F29181D9 /* SuperAlertControllerPickers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperAlertControllerPickers-dummy.m"; sourceTree = "<group>"; };
 		4AF50723EE695E440CDA214119EF2C70 /* Pods-Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sample-dummy.m"; sourceTree = "<group>"; };
-		52AEA6D36F7C22A03BDAAB37E56FC66A /* SuperAlertControllerPickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SuperAlertControllerPickers.framework; path = SuperAlertControllerPickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AEA6D36F7C22A03BDAAB37E56FC66A /* SuperAlertControllerPickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperAlertControllerPickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F10F7426D270DF0FCD0C476CF5D848 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		58D8AC44EBAE10660ADB31FDCC95AD3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C19E73320146E4400E2865A /* CommonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
 		630DD76D417453483F37DBAE838D5518 /* Pods-Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sample-umbrella.h"; sourceTree = "<group>"; };
 		69936BAC2793AFC87DE74EC390D2035A /* SuperAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperAlertController-umbrella.h"; sourceTree = "<group>"; };
 		69B42001AC70716C5AD5834FFC427CA7 /* SuperAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperAlertController-prefix.pch"; sourceTree = "<group>"; };
+		6C20625030EEF76E39FE499F1DA579C5 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		6D65DC53E876D33B73CCFEE44C379EE1 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
-		7107682D6228A20601F7DF9F49F5D51A /* ColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
-		735E5204C40E887244F2B75BCCDF2572 /* Pods-Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Sample.modulemap"; sourceTree = "<group>"; };
-		76465E0CBED4C456513D84FFCFF25D2B /* SuperAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SuperAlertController.framework; path = SuperAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D042C27DFE022002F7C50E6F0DA1ACF /* ImagePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
-		8D427DDB8A6EA2EDD7EA5C847D6F3261 /* LocalePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalePickerViewController.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C842FA5FE6BF93C678C03D05D724233 /* PickerViewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		6E36606ED4303C95E258FA4C7421C2DE /* OneTextFieldViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OneTextFieldViewController.swift; sourceTree = "<group>"; };
+		735E5204C40E887244F2B75BCCDF2572 /* Pods-Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Sample.modulemap"; sourceTree = "<group>"; };
+		744CDBA2394A9259EF54BD555D7A8944 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		76465E0CBED4C456513D84FFCFF25D2B /* SuperAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7867993CCD54D2B88F397B96C95E6028 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AC38C637E55CC315DA491B4BF944D72 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		81EDBB76944CEDD22B2D1BE8292FBF40 /* DatePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B03AF105131DAACC434A49F9827B38 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		9C896AB03AD02637A2108FF27D207683 /* Pods-Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-frameworks.sh"; sourceTree = "<group>"; };
-		9CEF5AFDAB5017057C587A5CB655DD8B /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		9FCFAC9E567878C7B5458F5B8D00B85C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A06FDBE0FC090C06EDACDC11E7C92CC3 /* GradientSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
+		9D22CA8CECFC486FB1A90AC8B532CF26 /* ColorPicker.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ColorPicker.storyboard; path = Source/Resources/ColorPicker.storyboard; sourceTree = "<group>"; };
 		A21D9B3C2775E7C503E601A5737980FB /* Pods-Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A29C16FF4752B5D65763E77A2E7C0D9A /* Bundle+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		A323E57DA642AEC35EB0343ACE2C4B0D /* GradientSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
 		A4F67C9E66E8D9E97F11042B162517EB /* Pods-Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample-acknowledgements.plist"; sourceTree = "<group>"; };
-		A654F63295873B6EAC0BA256FE3B3FC6 /* SuperAlertControllerPickers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperAlertControllerPickers-dummy.m"; sourceTree = "<group>"; };
 		A8F3FD76AE1F3ED98BBB684007491AB9 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+Extensions.swift"; path = "SuperAlertController/UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
-		A9250F16F6CBDCE63AE2DFA1310D2670 /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
-		AE2846D9FE21DF43346BD9738BD29F07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3153746ADD49B908F5F867F48EF6FEF /* Locale+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
-		B3EF03AE1C3FD028583A4A40E658C118 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
-		C1E88037948ED417FE5DD5768DB068B1 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		C843C520407A20447CB6747FCA39E460 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
-		C938D97DEE67EE25D887BA50EB7EE200 /* OneTextFieldViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OneTextFieldViewController.swift; sourceTree = "<group>"; };
-		CA772984C782D2CAADE5A4B81C7702BD /* DatePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		ABF56FBE07A3FDAEEB1CFC34BCE4A438 /* SegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		AEE75955ADF9A77B13B98FD0E9FE7CD7 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
+		CC34347EA30B26929FDF8278E4F9E285 /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
+		CE4F1209015F8E71C8EA5D179D98F226 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		D05B5E339BFF5EC9E78B36F0DA7578B9 /* PickerViewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
 		D08918E8C649F25919C3494E72AE37C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1A0206924C0B67488542464023346BA /* UITextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
-		DA4527570DE13DC5692AA329BD283B71 /* Countries.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Countries.bundle; path = Source/Countries.bundle; sourceTree = "<group>"; };
-		DCBE1F9E8CD62C5252BBCB0B37C5A6D4 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
-		E31FA3AA94C8D338AC638C72979D1E9B /* SuperAlertControllerPickers.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SuperAlertControllerPickers.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E574889D4091F84F132EC2F71DA961B9 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		E74ECF87C9E8C30A500058E32BCD3306 /* Optional+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		D166B1FB2350561066C13AD9B54AA44A /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Source/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		DA57CD1C21E91E5FA0C796620EDA2324 /* LocalePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalePickerViewController.swift; sourceTree = "<group>"; };
+		EAEB7CA2B39D68E6E30B713295D17EB3 /* SuperAlertControllerPickers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SuperAlertControllerPickers.modulemap; sourceTree = "<group>"; };
+		EDA0A6D1A9BB278D2965F303BE29248A /* Locale+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
+		F9E9FFADD2FBB2C09B1C2761EE341BB6 /* Array+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		F9F35A26D98857A67DB10543FC58CB23 /* SuperAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperAlertController-dummy.m"; sourceTree = "<group>"; };
-		FBDD91D04DD5D5A4545B633EAEB75DAB /* Array+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,56 +164,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15E6469BB57E5EFFC97820D2C06996C5 /* Pod */ = {
+		01E8662DBFBE0D1AFA8AA23218339C96 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2EC09CD8B8E69AF75B7A601992EF39BD /* LICENSE.md */,
-				9FCFAC9E567878C7B5458F5B8D00B85C /* README.md */,
-				E31FA3AA94C8D338AC638C72979D1E9B /* SuperAlertControllerPickers.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2A179D68931341FD56B822547CD17955 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				FBDD91D04DD5D5A4545B633EAEB75DAB /* Array+Extensions.swift */,
-				25CD630FF203145D9B9AEAA827758386 /* Date+Extension.swift */,
-				B3153746ADD49B908F5F867F48EF6FEF /* Locale+Extensions.swift */,
-				E74ECF87C9E8C30A500058E32BCD3306 /* Optional+Extensions.swift */,
-				C1E88037948ED417FE5DD5768DB068B1 /* String+Extensions.swift */,
-				9CEF5AFDAB5017057C587A5CB655DD8B /* UIColor+Extensions.swift */,
-				B3EF03AE1C3FD028583A4A40E658C118 /* UIImage+Extensions.swift */,
-				A9250F16F6CBDCE63AE2DFA1310D2670 /* UISegmentedControl+Extensions.swift */,
-				D1A0206924C0B67488542464023346BA /* UITextField+Extensions.swift */,
-				C843C520407A20447CB6747FCA39E460 /* UITextView+Extensions.swift */,
-				E574889D4091F84F132EC2F71DA961B9 /* UIView+Extensions.swift */,
-			);
-			name = Extensions;
-			path = Source/Extensions;
-			sourceTree = "<group>";
-		};
-		2B681F45C01ACD2D3D9E92923380C9C9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DA4527570DE13DC5692AA329BD283B71 /* Countries.bundle */,
+				D166B1FB2350561066C13AD9B54AA44A /* Assets.xcassets */,
+				9D22CA8CECFC486FB1A90AC8B532CF26 /* ColorPicker.storyboard */,
+				015CED31D6493745BE419456D81DD09E /* Countries.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		7012AB37E6E034114C6E84084408112B /* Pickers */ = {
+		0402C80F7EBFB9F2D6391B32164B0DA4 /* SuperAlertControllerPickers */ = {
 			isa = PBXGroup;
 			children = (
-				7107682D6228A20601F7DF9F49F5D51A /* ColorPickerViewController.swift */,
-				CA772984C782D2CAADE5A4B81C7702BD /* DatePickerViewController.swift */,
-				7D042C27DFE022002F7C50E6F0DA1ACF /* ImagePickerViewController.swift */,
-				8D427DDB8A6EA2EDD7EA5C847D6F3261 /* LocalePickerViewController.swift */,
-				C938D97DEE67EE25D887BA50EB7EE200 /* OneTextFieldViewController.swift */,
-				9C842FA5FE6BF93C678C03D05D724233 /* PickerViewViewController.swift */,
-				33F950270EF66FB14DD717E383330A86 /* TwoTextFieldsViewController.swift */,
+				9E9DA3ADEBA0ADEE2EEC0A9AC46D0DC1 /* Extensions */,
+				E8F82E589648D1F8AF92167449782DA3 /* Pickers */,
+				A8CF685B0AF6E5D852BF7A43B7F66C9A /* Pod */,
+				01E8662DBFBE0D1AFA8AA23218339C96 /* Resources */,
+				4BC88C5C549151ACF362F24F16530ED5 /* Support Files */,
+				C1E8CFB13AA476D071272787608A4566 /* Views */,
 			);
-			name = Pickers;
-			path = Source/Pickers;
+			name = SuperAlertControllerPickers;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4BC88C5C549151ACF362F24F16530ED5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7867993CCD54D2B88F397B96C95E6028 /* Info.plist */,
+				EAEB7CA2B39D68E6E30B713295D17EB3 /* SuperAlertControllerPickers.modulemap */,
+				45D463A3DBB8BFAA881751AAE4C9FB3F /* SuperAlertControllerPickers.xcconfig */,
+				45EE27C7E523DD082C171EE9F29181D9 /* SuperAlertControllerPickers-dummy.m */,
+				381F83FE6877C5284C3230EDD834C456 /* SuperAlertControllerPickers-prefix.pch */,
+				1B772A7B4A433996F2F040E473C521EB /* SuperAlertControllerPickers-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Sample/Pods/Target Support Files/SuperAlertControllerPickers";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -218,20 +212,6 @@
 				9BB82EB8634015FC074703C7E1697FCF /* Products */,
 				A8614ADDDA2C845A05B4D5D16AB12C48 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		945AE95669259646C38E2382757DA147 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE2846D9FE21DF43346BD9738BD29F07 /* Info.plist */,
-				37E6FF180E13B6C773AEF2B4E045779F /* SuperAlertControllerPickers.modulemap */,
-				0A971674A8B9D3B2C9AE578FA7837E7B /* SuperAlertControllerPickers.xcconfig */,
-				A654F63295873B6EAC0BA256FE3B3FC6 /* SuperAlertControllerPickers-dummy.m */,
-				1A9E7A40B0766100CB13ECB90797F4DE /* SuperAlertControllerPickers-prefix.pch */,
-				2222F12EEFD7D5F4F60111078863AF9F /* SuperAlertControllerPickers-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Sample/Pods/Target Support Files/SuperAlertControllerPickers";
 			sourceTree = "<group>";
 		};
 		9A4532A6A34C847AD5CC61AD8FEE5F75 /* iOS */ = {
@@ -252,10 +232,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9E9DA3ADEBA0ADEE2EEC0A9AC46D0DC1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9FFADD2FBB2C09B1C2761EE341BB6 /* Array+Extensions.swift */,
+				A29C16FF4752B5D65763E77A2E7C0D9A /* Bundle+Extensions.swift */,
+				37F2A5C54CCF2E883F61A9CE4E58F830 /* Date+Extension.swift */,
+				EDA0A6D1A9BB278D2965F303BE29248A /* Locale+Extensions.swift */,
+				3E06B56CB0812AA88901C649503C4134 /* Optional+Extensions.swift */,
+				93B03AF105131DAACC434A49F9827B38 /* String+Extensions.swift */,
+				2C9E5BD7B6B20FA8AD1EC3E70D6F8F4D /* UIColor+Extensions.swift */,
+				744CDBA2394A9259EF54BD555D7A8944 /* UIImage+Extensions.swift */,
+				CC34347EA30B26929FDF8278E4F9E285 /* UISegmentedControl+Extensions.swift */,
+				6C20625030EEF76E39FE499F1DA579C5 /* UITextField+Extensions.swift */,
+				AEE75955ADF9A77B13B98FD0E9FE7CD7 /* UITextView+Extensions.swift */,
+				7AC38C637E55CC315DA491B4BF944D72 /* UIView+Extensions.swift */,
+				5C19E73320146E4400E2865A /* CommonExtensions.swift */,
+			);
+			name = Extensions;
+			path = Source/Codes/Extensions;
+			sourceTree = "<group>";
+		};
 		A4C96FEEB7AF0D7287C3C894FC47AB2D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E860A7305C3CC554249189829E787FF5 /* SuperAlertControllerPickers */,
+				0402C80F7EBFB9F2D6391B32164B0DA4 /* SuperAlertControllerPickers */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -266,6 +267,16 @@
 				BF5639CAB18577B4EDAE07E0E34E188C /* Pods-Sample */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A8CF685B0AF6E5D852BF7A43B7F66C9A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3DB84668FCD9CA3F98DB0C8E26B34C66 /* LICENSE.md */,
+				58D8AC44EBAE10660ADB31FDCC95AD3F /* README.md */,
+				3142F31F7CEF97206A4CBC73A40257D7 /* SuperAlertControllerPickers.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A9C058C8918107DE1CC406B3C57D0E1C /* Pods */ = {
@@ -294,16 +305,16 @@
 			path = "Target Support Files/Pods-Sample";
 			sourceTree = "<group>";
 		};
-		C6B7457ADA6AD7490866B27B21A2459C /* Views */ = {
+		C1E8CFB13AA476D071272787608A4566 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A06FDBE0FC090C06EDACDC11E7C92CC3 /* GradientSlider.swift */,
-				012DCB97B51DA01F4A85A445FC216AD5 /* Label.swift */,
-				469FDE8EF1D5A73B220CE214709F02D0 /* SegmentedControl.swift */,
-				DCBE1F9E8CD62C5252BBCB0B37C5A6D4 /* TextField.swift */,
+				A323E57DA642AEC35EB0343ACE2C4B0D /* GradientSlider.swift */,
+				07795FA386FDA52ACD561D23A7844FC4 /* Label.swift */,
+				ABF56FBE07A3FDAEEB1CFC34BCE4A438 /* SegmentedControl.swift */,
+				CE4F1209015F8E71C8EA5D179D98F226 /* TextField.swift */,
 			);
 			name = Views;
-			path = Source/Views;
+			path = Source/Codes/Views;
 			sourceTree = "<group>";
 		};
 		CD2AB8BAD94B37BB009614E0A957E77E /* SuperAlertController */ = {
@@ -313,7 +324,6 @@
 				39FBCB190EDDBBCCA0D9C90B6492058C /* UIAlertController+QuickUsage.swift */,
 				FE79D0E772A5D515E74E38CACE9C0A24 /* Support Files */,
 			);
-			name = SuperAlertController;
 			path = SuperAlertController;
 			sourceTree = "<group>";
 		};
@@ -326,18 +336,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E860A7305C3CC554249189829E787FF5 /* SuperAlertControllerPickers */ = {
+		E8F82E589648D1F8AF92167449782DA3 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
-				2A179D68931341FD56B822547CD17955 /* Extensions */,
-				7012AB37E6E034114C6E84084408112B /* Pickers */,
-				15E6469BB57E5EFFC97820D2C06996C5 /* Pod */,
-				2B681F45C01ACD2D3D9E92923380C9C9 /* Resources */,
-				945AE95669259646C38E2382757DA147 /* Support Files */,
-				C6B7457ADA6AD7490866B27B21A2459C /* Views */,
+				34A20E7D828924537DFCEB755EB6232B /* ColorPickerViewController.swift */,
+				81EDBB76944CEDD22B2D1BE8292FBF40 /* DatePickerViewController.swift */,
+				57F10F7426D270DF0FCD0C476CF5D848 /* ImagePickerViewController.swift */,
+				DA57CD1C21E91E5FA0C796620EDA2324 /* LocalePickerViewController.swift */,
+				6E36606ED4303C95E258FA4C7421C2DE /* OneTextFieldViewController.swift */,
+				D05B5E339BFF5EC9E78B36F0DA7578B9 /* PickerViewViewController.swift */,
+				4373F9E84A07058241B06039FFB744C2 /* TwoTextFieldsViewController.swift */,
 			);
-			name = SuperAlertControllerPickers;
-			path = ../..;
+			name = Pickers;
+			path = Source/Codes/Pickers;
 			sourceTree = "<group>";
 		};
 		FE79D0E772A5D515E74E38CACE9C0A24 /* Support Files */ = {
@@ -388,9 +399,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42AA42973976417EC53C632830F34074 /* Build configuration list for PBXNativeTarget "SuperAlertControllerPickers" */;
 			buildPhases = (
-				590B6FB18090921A1C63462125E0F1CF /* Sources */,
+				4E1A3991B847B896C0FD38F694281FDE /* Sources */,
 				80EA1D3B1350E11929685823FC04CBCB /* Frameworks */,
-				886900931F11654F5F42F0535B5DC268 /* Resources */,
+				580B75B60DC201173EE7EB66914268A6 /* Resources */,
 				E30E0D0BBF281B4BAC5F9D288A37AC9C /* Headers */,
 			);
 			buildRules = (
@@ -447,6 +458,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					122D36EBC3342DADD84062317D3A90C9 = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -468,44 +484,48 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		886900931F11654F5F42F0535B5DC268 /* Resources */ = {
+		580B75B60DC201173EE7EB66914268A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5840DB2427C7DBF800ACEFAD296B68CA /* Countries.bundle in Resources */,
+				6B46AEA221FAE1F28C29EBE2F8DC99B5 /* Assets.xcassets in Resources */,
+				2DC76558CA2AB931C5AE6D66D637AAC4 /* ColorPicker.storyboard in Resources */,
+				92185C583AA8B56766C7FA22F6DCDD70 /* Countries.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		590B6FB18090921A1C63462125E0F1CF /* Sources */ = {
+		4E1A3991B847B896C0FD38F694281FDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1660ABB6933E130298DD5BF42579981F /* Array+Extensions.swift in Sources */,
-				0FA0C2CC396FAB51C1729D0765B5F46E /* ColorPickerViewController.swift in Sources */,
-				674FACEDBBAEA14215FA6ED20603E056 /* Date+Extension.swift in Sources */,
-				E6F051081EBF2F89567F00035F6FD45B /* DatePickerViewController.swift in Sources */,
-				7502D34AF999479FBED5C4ECFE70467B /* GradientSlider.swift in Sources */,
-				DFB8C281CBAA49038D77F887E0A7C5A4 /* ImagePickerViewController.swift in Sources */,
-				1BD7D1E777930735712C4F3AAFD9E4CB /* Label.swift in Sources */,
-				5FE4E8F3DA7EB4147076C8A29983BC0C /* Locale+Extensions.swift in Sources */,
-				8F921B946682C3A664B4C9DC2B0DC7F2 /* LocalePickerViewController.swift in Sources */,
-				911367A8092C886A34C573E9F75707DD /* OneTextFieldViewController.swift in Sources */,
-				F9CD7BEE7898DD47A7ECCAEAA6F5A770 /* Optional+Extensions.swift in Sources */,
-				0560EE919EF13C0A95C3B3450DD99BAB /* PickerViewViewController.swift in Sources */,
-				BC56F1A97C2E072AA8F185497A065CBC /* SegmentedControl.swift in Sources */,
-				2D2AD315967B2C99396190ACE7E62CF5 /* String+Extensions.swift in Sources */,
-				02920F823C4FE7D5C8D403F003502B80 /* SuperAlertControllerPickers-dummy.m in Sources */,
-				610696C2D39AD92F27E834048E7E192F /* TextField.swift in Sources */,
-				263FA5E0FACA58F6EB4EF6AB08518E60 /* TwoTextFieldsViewController.swift in Sources */,
-				1B33AF9FE15D5B0C08603C4DE9719AC5 /* UIColor+Extensions.swift in Sources */,
-				304EE51374F683778A3882FE12ECE6BC /* UIImage+Extensions.swift in Sources */,
-				2F24FFEBAD445219929E31CFB347BDA2 /* UISegmentedControl+Extensions.swift in Sources */,
-				855D4FFCC890603593F862D76DDC9077 /* UITextField+Extensions.swift in Sources */,
-				6D6FB60533F7E190709FE029B1595EE5 /* UITextView+Extensions.swift in Sources */,
-				CD870B7A3C704FEA0AFA5E8FAB47EB0A /* UIView+Extensions.swift in Sources */,
+				F6BE6F9124C32BB7FE71DDED8CFA92D2 /* Array+Extensions.swift in Sources */,
+				B98D5AE34CDA25E166802F1F10FE561C /* Bundle+Extensions.swift in Sources */,
+				AD0AA653352ACDBBFF9DF8AA66C52784 /* ColorPickerViewController.swift in Sources */,
+				3BAAA5BC1499B5B9668CFFEF446C54F7 /* Date+Extension.swift in Sources */,
+				19E967D5FCD9BA88714B4735811B244D /* DatePickerViewController.swift in Sources */,
+				5C19E73620146EBC00E2865A /* CommonExtensions.swift in Sources */,
+				19306DF2F6FB50FDE136113FA34D1669 /* GradientSlider.swift in Sources */,
+				6AF56B2D7E0855AD048492217DC3958F /* ImagePickerViewController.swift in Sources */,
+				6924EF5E5230B5E2EEF46154D630519B /* Label.swift in Sources */,
+				30D8C4ECAFFDE54A85811F637D1ADE08 /* Locale+Extensions.swift in Sources */,
+				4228F4639C2EFB2691E56123A4653A6F /* LocalePickerViewController.swift in Sources */,
+				5367F4CD4C651752F815DBDDC0C36620 /* OneTextFieldViewController.swift in Sources */,
+				51B7D3F42DE0C72E7D6484E91F8B06DF /* Optional+Extensions.swift in Sources */,
+				21897B2578391F57BC375E6222CCD03D /* PickerViewViewController.swift in Sources */,
+				4ACF237611B1AC86D7DA985BB0503C7A /* SegmentedControl.swift in Sources */,
+				F4FA6E468D9920960B157A9928EACF26 /* String+Extensions.swift in Sources */,
+				F19AE7A909D90B95F5F3D23A79F08BE3 /* SuperAlertControllerPickers-dummy.m in Sources */,
+				BCB59D3C10046572C8873C91CD5872EF /* TextField.swift in Sources */,
+				6A7A89D28DA35C86A936623B93A055A8 /* TwoTextFieldsViewController.swift in Sources */,
+				4FA2DB31886892BFE91BC055FA090352 /* UIColor+Extensions.swift in Sources */,
+				1FE9607885C9F980C26054A4F2A19B93 /* UIImage+Extensions.swift in Sources */,
+				03CC431D54239D55FFD7FF09E5EE3B4F /* UISegmentedControl+Extensions.swift in Sources */,
+				890F122DB77DDA47B261C93DBBEE15F0 /* UITextField+Extensions.swift in Sources */,
+				78603D69B0B0B59CCA925464BF68387F /* UITextView+Extensions.swift in Sources */,
+				A579B3045DCCD8546BF1ED1AB5852EA7 /* UIView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,7 +628,7 @@
 		};
 		772A4C1C247B35EAF8873313B2079632 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A971674A8B9D3B2C9AE578FA7837E7B /* SuperAlertControllerPickers.xcconfig */;
+			baseConfigurationReference = 45D463A3DBB8BFAA881751AAE4C9FB3F /* SuperAlertControllerPickers.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -641,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AE375A74D27FC41E7BB6C006DFC76A6 /* Pods-Sample.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -665,6 +686,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -796,7 +818,7 @@
 		};
 		CAE62B95414DA100D525E5C5B8F68A70 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A971674A8B9D3B2C9AE578FA7837E7B /* SuperAlertControllerPickers.xcconfig */;
+			baseConfigurationReference = 45D463A3DBB8BFAA881751AAE4C9FB3F /* SuperAlertControllerPickers.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -830,6 +852,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D65DC53E876D33B73CCFEE44C379EE1 /* Pods-Sample.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -853,6 +876,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

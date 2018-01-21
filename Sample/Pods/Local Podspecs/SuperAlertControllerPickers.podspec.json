@@ -1,21 +1,25 @@
 {
   "name": "SuperAlertControllerPickers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "Extensions for SuperAlertController.",
-  "homepage": "https://github.com/Meniny/SuperAlertControllerPickers",
+  "homepage": "https://github.com/Meniny/SuperAlertController-Pickers",
   "license": {
     "type": "MIT",
     "file": "LICENSE.md"
   },
   "authors": "Elias Abel",
   "source": {
-    "git": "https://github.com/Meniny/SuperAlertControllerPickers.git",
-    "tag": "1.0.0"
+    "git": "https://github.com/Meniny/SuperAlertController-Pickers.git",
+    "tag": "1.0.1"
   },
   "swift_version": "4.0",
   "social_media_url": "https://meniny.cn/",
-  "source_files": "Source/**/*.swift",
-  "resources": "Source/Countries.bundle",
+  "source_files": "Source/Codes/**/*.swift",
+  "resources": [
+    "Source/Resources/Countries.bundle",
+    "Source/Resources/ColorPicker.storyboard",
+    "Source/Resources/Assets.xcassets"
+  ],
   "requires_arc": true,
   "platforms": {
     "ios": "9.0"

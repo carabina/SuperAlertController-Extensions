@@ -11,7 +11,7 @@ extension UIAlertController {
     ///   - vInset: bottom margin to button
     ///   - configuration: textField
     public func addColorPicker(color: UIColor = .black, action: ColorPickerViewController.ColorPickerAction?) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let storyboard = UIStoryboard(name: "ColorPicker", bundle: Bundle.SACPBundle)
         guard let vc = storyboard.instantiateViewController(withIdentifier: "ColorPicker") as? ColorPickerViewController else { return }
         self.setContentViewController(vc)
         vc.set(color: color, action: action)
