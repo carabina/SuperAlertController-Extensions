@@ -1,37 +1,36 @@
 
 import UIKit
+import WebKit
 import SuperAlertController
 
 extension UIAlertController {
     
-    public var imagePreviewController: ImagePreviewController? {
-        return self.contentViewController as? ImagePreviewController
+    public var webViewController: WebViewController? {
+        return self.contentViewController as? WebViewController
     }
     
-    /// Add an image prievew
+    /// Add an WebView
     ///
-    /// - Parameter image: An UIImage
-    public func addImagePreview(image: UIImage) {
-        let imageController = ImagePreviewController.init(image: image)
-//        let imageProportion = image.size.width / image.size.height
-//        let width = type(of: self).width
-//        let height = width / imageProportion
-        self.setContentViewController(imageController)//, width: width, height: height)
+    /// - Parameter image: An URL
+    public func addWebView(url: URL) {
+        let controller = WebViewController.init(url: url)
+        self.setContentViewController(controller)
     }
 }
 
-public final class ImagePreviewController: UIViewController {
-    lazy public private(set) var imageView: UIImageView = {
-        let imgView = UIImageView.init()
-        imgView.backgroundColor = UIColor.clear
-//        imgView.contentMode = .scaleAspectFit
-        imgView.clipsToBounds = true
-        return imgView
+public final class WebViewController: UIViewController {
+    lazy public private(set) var webView: WKWebView = {
+        let v = WKWebView.init()
+        v.backgroundColor = UIColor.clear
+        v.clipsToBounds = true
+        return v
     }()
     
-    public required init(image: UIImage) {
+    public let url: URL
+    
+    public required init(url: URL) {
+        self.url = url
         super.init(nibName: nil, bundle: nil)
-        self.imageView.image = image
     }
     
     public required init?(coder aDecoder: NSCoder) {
@@ -39,15 +38,14 @@ public final class ImagePreviewController: UIViewController {
     }
     
     public override func loadView() {
-        view = self.imageView
-        if let img = self.imageView.image {
-            let constraint = NSLayoutConstraint.init(item: self.imageView, attribute: .width, relatedBy: .equal, toItem: self.imageView, attribute: .height, multiplier: img.size.width / img.size.height, constant: 0)
-            self.imageView.addConstraint(constraint)
-        }
+        view = self.webView
+        let constraint = NSLayoutConstraint.init(item: self.webView, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .height, multiplier: 1, constant: UIAlertController.width)
+        self.webView.addConstraint(constraint)
     }
     
     public override func viewDidLoad() {
         super.viewDidLoad()
+        self.webView.load(URLRequest.init(url: self.url))
     }
     
     deinit {

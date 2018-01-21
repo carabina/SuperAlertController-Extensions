@@ -23,6 +23,8 @@ public enum SuperAlertType {
     case inputPanel
     case imagePreview
     case webView
+    case activityIndicator
+    case videoPlayer
     
     var title: String {
         switch self {
@@ -55,6 +57,10 @@ public enum SuperAlertType {
             return "Image Preview"
         case .webView:
             return "Web View"
+        case .activityIndicator:
+            return "Activity Indicator"
+        case .videoPlayer:
+            return "Video Player"
         }
     }
     
@@ -84,6 +90,10 @@ public enum SuperAlertType {
             return .clip
         case .webView:
             return .globe
+        case .activityIndicator:
+            return .listings
+        case .videoPlayer:
+            return .two_squares
         }
     }
 }
@@ -106,7 +116,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         .loginPanel,
         .inputPanel,
         .imagePreview,
-        .webView
+        .webView,
+        .activityIndicator,
+        .videoPlayer
     ]
     
     override func viewDidLoad() {
@@ -210,6 +222,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             break
         case .webView:
             alertController.addWebView(url: URL.init(string: "https://meniny.cn/")!)
+            break
+        case .activityIndicator:
+            alertController.addActivityIndicator(style: .whiteLarge, color: #colorLiteral(red: 0.05, green:0.49, blue:0.98, alpha:1.00))
+            break
+        case .videoPlayer:
+            let url = "http://jzvd.nathen.cn/c6e3dc12a1154626b3476d9bf3bd7266/6b56c5f0dc31428083757a45764763b0-5287d2089db37e62345123a1be272f8b.mp4"
+            alertController.addVideoPlayer(url: URL.init(string: url)!, ratio: 0.5)
             break
         }
         

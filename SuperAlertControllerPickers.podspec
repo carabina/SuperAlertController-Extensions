@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SuperAlertControllerPickers'
-  s.version          = "1.0.3"
+  s.version          = "1.0.4"
   s.summary          = "Extensions for SuperAlertController."
   s.homepage         = "https://github.com/Meniny/SuperAlertController-Pickers"
   s.license          = { :type => "MIT", :file => "LICENSE.md" }
@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   ]
   s.requires_arc     = true
   s.ios.deployment_target = "9.0"
+  s.frameworks       = "Foundation", "UIKit", "AVFoundation", "CoreGraphics", "WebKit"
   s.description      = "The extensions for SuperAlertController"
   s.module_name      = 'SuperAlertControllerPickers'
   s.dependency         "SuperAlertController"
