@@ -22,6 +22,42 @@
 
 Extensions for [`SuperAlertController`](https://github.com/Meniny/SuperAlertController/).
 
+## Preview
+
+<table>
+<tr>
+<td><img src="./Assets/Demo.jpg"/></td>
+</tr>
+<tr>
+<td><img src="./Assets/Simple.jpg"/></td>
+<td><img src="./Assets/Color.jpg"/></td>
+</tr>
+<tr>
+<td><img src="./Assets/Currency.jpg"/></td>
+<td><img src="./Assets/Date.jpg"/></td>
+</tr>
+<tr>
+<td><img src="./Assets/Image_H.jpg"/></td>
+<td><img src="./Assets/Image_V.jpg"/></td>
+</tr>
+<tr>
+<td><img src="./Assets/Image.jpg"/></td>
+<td><img src="./Assets/Input.jpg"/></td>
+</tr>
+<tr>
+<td><img src="./Assets/Locale.jpg"/></td>
+<td><img src="./Assets/Login.jpg"/></td>
+</tr>
+<tr>
+<td><img src="./Assets/Phone.jpg"/></td>
+<td><img src="./Assets/Picker.jpg"/></td>
+</tr>
+<tr>
+<td><img src="./Assets/Web.jpg"/></td>
+<td><img src="./Assets/Custom.jpg"/></td>
+</tr>
+</table>
+
 ## Requirements
 
 * iOS 9.0+
