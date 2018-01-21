@@ -29,36 +29,8 @@ Extensions for [`SuperAlertController`](https://github.com/Meniny/SuperAlertCont
 <td><img src="./Assets/Demo.jpg"/></td>
 </tr>
 <tr>
-<td><img src="./Assets/Simple.jpg"/></td>
-<td><img src="./Assets/Image.jpg"/></td>
-</tr>
-<tr>
-<td><img src="./Assets/Image_H.jpg"/></td>
-<td><img src="./Assets/Image_V.jpg"/></td>
-</tr>
-<tr>
-<td><img src="./Assets/Login.jpg"/></td>
-<td><img src="./Assets/Input.jpg"/></td>
-</tr>
-<tr>
-<td><img src="./Assets/Locale.jpg"/></td>
-<td><img src="./Assets/Phone.jpg"/></td>
-</tr>
-<tr>
-<td><img src="./Assets/Currency.jpg"/></td>
-<td><img src="./Assets/Color.jpg"/></td>
-</tr>
-<tr>
-<td><img src="./Assets/Date.jpg"/></td>
-<td><img src="./Assets/Picker.jpg"/></td>
-</tr>
-<tr>
-<td><img src="./Assets/Video.jpg"/></td>
-<td><img src="./Assets/Loading.jpg"/></td>
-</tr>
-<tr>
-<td><img src="./Assets/Web.jpg"/></td>
-<td><img src="./Assets/Custom.jpg"/></td>
+<td><img src="./Assets/preview_1.gif"/></td>
+<td><img src="./Assets/preview_2.gif"/></td>
 </tr>
 </table>
 
