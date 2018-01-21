@@ -26,7 +26,7 @@ public enum SuperAlertType {
     case activityIndicator
     case videoPlayer
     
-    var title: String {
+    var description: String {
         switch self {
         case .imagePicker(let direction):
             switch direction {
@@ -96,6 +96,22 @@ public enum SuperAlertType {
             return .two_squares
         }
     }
+    
+    var title: String? {
+        switch self {
+        case .activityIndicator:
+            return nil
+        default:
+            return "SuperAlertController"
+    }
+    
+    var message: String? {
+        switch self {
+        case .activityIndicator:
+            return nil
+        default:
+            return "This is a \(self.description)"
+    }
 }
 
 let azure = #colorLiteral(red: 0.05, green:0.49, blue:0.98, alpha:1.00)
@@ -137,7 +153,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func alert(type: SuperAlertType) {
-        let alertController = SuperAlertController.init(style: .alert, source: self.view, title: "SuperAlertController", message: "This is a \(type.title)", tintColor: azure)
+        let alertController = SuperAlertController.init(style: .alert, source: self.view, title: type.title, message: type.message, tintColor: azure)
         
         switch type {
         case .imagePicker(let direction):
@@ -232,12 +248,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             break
         }
         
-        alertController.addAction(image: nil, title: "Done", color: azure, style: .default, isEnabled: true) { (_) in
+        self.addActions(for: type, to: alertController)
+        
+        alertController.show(animated: true, vibrate: true, serial: false, completion: nil)
+    }
+    
+    func addActions(for type: SuperAlertType, to alertController: SuperAlertController) {
+        if type == .activityIndicator {
+            alertController.addAction(image: nil, title: "Done", color: azure, style: .default, isEnabled: true) { (_) in
             alertController.hide(completion: nil)
         }
         alertController.addAction(image: nil, title: "Cancel", color: azure, style: .cancel, isEnabled: true, handler: nil)
-        
-        alertController.show(animated: true, vibrate: true, serial: false, completion: nil)
+        }
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
