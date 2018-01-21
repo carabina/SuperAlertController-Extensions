@@ -17,6 +17,8 @@ public enum SuperAlertType {
     case localePicker
     case currencyPicker
     case colorPicker
+    case normal
+    case customPicker
     case loginPanel
     case inputPanel
     
@@ -39,6 +41,10 @@ public enum SuperAlertType {
             return "Currency Picker"
         case .colorPicker:
             return "Color Picker"
+        case .normal:
+            return "Normal Alert"
+        case .customPicker:
+            return "Custom Picker"
         case .loginPanel:
             return "Login Panel"
         case .inputPanel:
@@ -60,6 +66,10 @@ public enum SuperAlertType {
             return .currency
         case .colorPicker:
             return .pen
+        case .normal:
+            return .title
+        case .customPicker:
+            return .picker
         case .loginPanel:
             return .two_squares
         case .inputPanel:
@@ -81,6 +91,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         .localePicker,
         .currencyPicker,
         .colorPicker,
+        .normal,
+        .customPicker,
         .loginPanel,
         .inputPanel
     ]
@@ -135,6 +147,28 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         case .colorPicker:
             alertController.addColorPicker(color: azure, action: { (color) in
                 print(color)
+            })
+            break
+        case .normal:
+            alertController.addAction(image: SuperAlertControllerPickerIcon.globe.image, title: "Global", color: #colorLiteral(red: 1.00, green:0.25, blue:0.35, alpha:1.00), style: .default, isEnabled: true, handler: nil)
+            break
+        case .customPicker:
+            let colLeft: PickerViewColumnSet = [
+                "Abel",
+                "Bob",
+                "Cathrin",
+                "Daniel",
+                "Elias",
+                "Frank",
+                "Geissler",
+                "Hohenheim"
+            ]
+            let colRight: PickerViewColumnSet = [
+                "Male",
+                "Female"
+            ]
+            alertController.addPickerView(values: [colLeft, colRight], initialSelection: (0, 4), action: { (_, _, index, value) in
+                print(value.row(at: index))
             })
             break
         case .loginPanel:

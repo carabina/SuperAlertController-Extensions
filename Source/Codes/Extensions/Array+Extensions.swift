@@ -1,5 +1,21 @@
 import Foundation
 
+public extension Array where Element == Array<String> {
+    public func column(at index: Int) -> PickerViewColumnSet {
+        return self[index]
+    }
+    
+    public func row(at index: PickerViewIndexes) -> String {
+        return self[index.column][index.row]
+    }
+}
+
+public extension Array where Element == String {
+    public func row(at index: Int) -> Element {
+        return self[index]
+    }
+}
+
 extension Array {
     
     @discardableResult

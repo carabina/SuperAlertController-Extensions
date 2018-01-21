@@ -10,27 +10,28 @@ extension UIAlertController {
     ///   - values: values for picker view
     ///   - initialSelection: initial selection of picker view
     ///   - action: action for selected value of picker view
-    public func addPickerView(values: PickerViewViewController.Values,  initialSelection: PickerViewViewController.Index? = nil, action: PickerViewViewController.PickerViewAction?) {
+    public func addPickerView(values: [PickerViewColumnSet],  initialSelection: PickerViewIndexes? = nil, action: PickerViewViewController.PickerViewAction?) {
         let pickerView = PickerViewViewController(values: values, initialSelection: initialSelection, action: action)
         self.setContentViewController(pickerView, height: 216)
     }
 }
 
+public typealias PickerViewColumnSet = Array<String>
+public typealias PickerViewIndexes = (column: Int, row: Int)
+
 public final class PickerViewViewController: UIViewController {
     
-    public typealias Values = [[String]]
-    public typealias Index = (column: Int, row: Int)
-    public typealias PickerViewAction = (_ vc: UIViewController, _ picker: UIPickerView, _ index: Index, _ values: Values) -> ()
+    public typealias PickerViewAction = (_ vc: UIViewController, _ picker: UIPickerView, _ index: PickerViewIndexes, _ values: [PickerViewColumnSet]) -> ()
     
     fileprivate var action: PickerViewAction?
-    fileprivate var values: Values = [[]]
-    fileprivate var initialSelection: Index?
+    fileprivate var values = [PickerViewColumnSet]()
+    fileprivate var initialSelection: PickerViewIndexes?
     
     fileprivate lazy var pickerView: UIPickerView = {
         return $0
     }(UIPickerView())
     
-    public init(values: Values, initialSelection: Index? = nil, action: PickerViewAction?) {
+    public init(values: [PickerViewColumnSet], initialSelection: PickerViewIndexes? = nil, action: PickerViewAction?) {
         super.init(nibName: nil, bundle: nil)
         self.values = values
         self.initialSelection = initialSelection
@@ -103,7 +104,7 @@ extension PickerViewViewController: UIPickerViewDataSource, UIPickerViewDelegate
      }
      */
     public func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        action?(self, pickerView, Index(column: component, row: row), values)
+        action?(self, pickerView, PickerViewIndexes(column: component, row: row), values)
     }
 }
 
