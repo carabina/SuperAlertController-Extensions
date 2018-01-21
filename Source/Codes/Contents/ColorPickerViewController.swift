@@ -3,6 +3,10 @@ import SuperAlertController
 
 extension UIAlertController {
     
+    public var colorPickerController: ColorPickerViewController? {
+        return self.contentViewController as? ColorPickerViewController
+    }
+    
     /// Add a textField
     ///
     /// - Parameters:

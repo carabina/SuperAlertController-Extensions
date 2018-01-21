@@ -4,6 +4,10 @@ import SuperAlertController
 
 extension UIAlertController {
     
+    public var datePickerController: DatePickerViewController? {
+        return self.contentViewController as? DatePickerViewController
+    }
+    
     /// Add a date picker
     ///
     /// - Parameters:

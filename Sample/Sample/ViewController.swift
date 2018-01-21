@@ -21,6 +21,8 @@ public enum SuperAlertType {
     case customPicker
     case loginPanel
     case inputPanel
+    case imagePreview
+    case webView
     
     var title: String {
         switch self {
@@ -49,6 +51,10 @@ public enum SuperAlertType {
             return "Login Panel"
         case .inputPanel:
             return "Input Panel"
+        case .imagePreview:
+            return "Image Preview"
+        case .webView:
+            return "Web View"
         }
     }
     
@@ -65,15 +71,19 @@ public enum SuperAlertType {
         case .currencyPicker:
             return .currency
         case .colorPicker:
-            return .pen
+            return .colors
         case .normal:
             return .title
         case .customPicker:
             return .picker
         case .loginPanel:
-            return .two_squares
-        case .inputPanel:
             return .user
+        case .inputPanel:
+            return .pen
+        case .imagePreview:
+            return .clip
+        case .webView:
+            return .globe
         }
     }
 }
@@ -94,7 +104,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         .normal,
         .customPicker,
         .loginPanel,
-        .inputPanel
+        .inputPanel,
+        .imagePreview,
+        .webView
     ]
     
     override func viewDidLoad() {
@@ -192,6 +204,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 textField.text = "Elias Abel"
                 textField.clearButtonMode = .whileEditing
             })
+            break
+        case .imagePreview:
+            alertController.addImagePreview(image: #imageLiteral(resourceName: "sample-5"))
+            break
+        case .webView:
+            alertController.addWebView(url: URL.init(string: "https://meniny.cn/")!)
             break
         }
         

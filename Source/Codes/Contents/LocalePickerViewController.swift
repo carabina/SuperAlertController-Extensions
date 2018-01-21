@@ -3,6 +3,10 @@ import UIKit
 import SuperAlertController
 
 extension UIAlertController {
+    
+    public var localePickerController: LocalePickerViewController? {
+        return self.contentViewController as? LocalePickerViewController
+    }
 
     /// Add Locale Picker
     ///

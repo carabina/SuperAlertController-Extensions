@@ -4,6 +4,10 @@ import SuperAlertController
 
 extension UIAlertController {
     
+    public var oneTextFieldController: OneTextFieldViewController? {
+        return self.contentViewController as? OneTextFieldViewController
+    }
+    
     /// Add a textField
     ///
     /// - Parameters:
@@ -18,7 +22,7 @@ extension UIAlertController {
     }
 }
 
-final class OneTextFieldViewController: UIViewController {
+public final class OneTextFieldViewController: UIViewController {
     
     fileprivate lazy var textField: TextField = TextField()
     
@@ -29,7 +33,7 @@ final class OneTextFieldViewController: UIViewController {
     }
     
     
-    init(vInset: CGFloat = 12, configuration: TextField.Config?) {
+    public init(vInset: CGFloat = 12, configuration: TextField.Config?) {
         super.init(nibName: nil, bundle: nil)
         view.addSubview(textField)
         ui.vInset = vInset
@@ -43,7 +47,7 @@ final class OneTextFieldViewController: UIViewController {
         preferredContentSize.height = ui.height + ui.vInset
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -51,12 +55,12 @@ final class OneTextFieldViewController: UIViewController {
         
     }
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     
-    override func viewDidLayoutSubviews() {
+    public override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
         textField.width = view.width - ui.hInset * 2

@@ -4,6 +4,10 @@ import SuperAlertController
 
 extension UIAlertController {
     
+    public var pickerViewController: PickerViewViewController? {
+        return self.contentViewController as? PickerViewViewController
+    }
+    
     /// Add a picker view
     ///
     /// - Parameters:

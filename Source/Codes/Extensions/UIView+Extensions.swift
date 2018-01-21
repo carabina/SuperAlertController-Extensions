@@ -1,6 +1,25 @@
 import UIKit
 import Foundation
 
+public extension UIView {
+    @discardableResult
+    public func set(attribute: NSLayoutAttribute, _ relation: NSLayoutRelation, to toAttribute:  NSLayoutAttribute, of item: UIView?, offset: CGFloat = 0) -> NSLayoutConstraint {
+        let constraint = NSLayoutConstraint.init(item: self, attribute: attribute, relatedBy: relation, toItem: item, attribute: toAttribute, multiplier: 1, constant: offset)
+        self.superview?.addConstraint(constraint)
+        return constraint
+    }
+    
+    @discardableResult
+    public func follow(edge: UIEdgeInsets) -> [NSLayoutConstraint] {
+        return [
+            self.set(attribute: .top, .equal, to: .top, of: self.superview, offset: edge.top),
+            self.set(attribute: .left, .equal, to: .left, of: self.superview, offset: edge.left),
+            self.set(attribute: .right, .equal, to: .right, of: self.superview, offset: edge.right),
+            self.set(attribute: .bottom, .equal, to: .bottom, of: self.superview, offset: edge.bottom)
+        ]
+    }
+}
+
 // MARK: - Designable Extension
 
 @IBDesignable

@@ -4,6 +4,10 @@ import SuperAlertController
 
 extension UIAlertController {
     
+    public var imagePickerController: ImagePickerViewController? {
+        return self.contentViewController as? ImagePickerViewController
+    }
+    
     /// Add Image Picker
     ///
     /// - Parameters:

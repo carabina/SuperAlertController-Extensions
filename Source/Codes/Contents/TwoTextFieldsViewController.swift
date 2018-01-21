@@ -4,6 +4,10 @@ import SuperAlertController
 
 extension UIAlertController {
     
+    public var twoTextFieldController: TwoTextFieldsViewController? {
+        return self.contentViewController as? TwoTextFieldsViewController
+    }
+    
     /// Add two textField
     ///
     /// - Parameters:
@@ -18,7 +22,7 @@ extension UIAlertController {
     }
 }
 
-final class TwoTextFieldsViewController: UIViewController {
+public final class TwoTextFieldsViewController: UIViewController {
     
     fileprivate lazy var textFieldView: UIView = UIView()
     fileprivate lazy var textFieldOne: TextField = TextField()
@@ -28,7 +32,7 @@ final class TwoTextFieldsViewController: UIViewController {
     fileprivate var hInset: CGFloat
     fileprivate var vInset: CGFloat
     
-    init(height: CGFloat, hInset: CGFloat, vInset: CGFloat, textFieldOne configurationOneFor: TextField.Config?, textFieldTwo configurationTwoFor: TextField.Config?) {
+    public init(height: CGFloat, hInset: CGFloat, vInset: CGFloat, textFieldOne configurationOneFor: TextField.Config?, textFieldTwo configurationTwoFor: TextField.Config?) {
         self.height = height
         self.hInset = hInset
         self.vInset = vInset
@@ -51,7 +55,7 @@ final class TwoTextFieldsViewController: UIViewController {
         //preferredContentSize.height = height * 2 + vInset
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -59,12 +63,12 @@ final class TwoTextFieldsViewController: UIViewController {
         
     }
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     
-    override func viewDidLayoutSubviews() {
+    public override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
         textFieldView.width = view.width - hInset * 2
