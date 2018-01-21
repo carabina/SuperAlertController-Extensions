@@ -103,6 +103,7 @@ public enum SuperAlertType {
             return nil
         default:
             return "SuperAlertController"
+        }
     }
     
     var message: String? {
@@ -111,6 +112,7 @@ public enum SuperAlertType {
             return nil
         default:
             return "This is a \(self.description)"
+        }
     }
 }
 
@@ -241,6 +243,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             break
         case .activityIndicator:
             alertController.addActivityIndicator(style: .whiteLarge, color: #colorLiteral(red: 0.05, green:0.49, blue:0.98, alpha:1.00))
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
+                alertController.hide(completion: nil)
+            })
             break
         case .videoPlayer:
             let url = "http://jzvd.nathen.cn/c6e3dc12a1154626b3476d9bf3bd7266/6b56c5f0dc31428083757a45764763b0-5287d2089db37e62345123a1be272f8b.mp4"
@@ -254,18 +260,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func addActions(for type: SuperAlertType, to alertController: SuperAlertController) {
-        if type == .activityIndicator {
+        switch type {
+        case .activityIndicator:
+            break
+        default:
             alertController.addAction(image: nil, title: "Done", color: azure, style: .default, isEnabled: true) { (_) in
-            alertController.hide(completion: nil)
-        }
-        alertController.addAction(image: nil, title: "Cancel", color: azure, style: .cancel, isEnabled: true, handler: nil)
+                alertController.hide(completion: nil)
+            }
+            alertController.addAction(image: nil, title: "Cancel", color: azure, style: .cancel, isEnabled: true, handler: nil)
+            break
         }
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
         let type = dataSource[indexPath.row]
-        cell?.textLabel?.text = type.title
+        cell?.textLabel?.text = type.description
         cell?.selectionStyle = .none
         cell?.accessoryType = .disclosureIndicator
         cell?.imageView?.image = type.icon.image

@@ -331,7 +331,7 @@ open class VideoPlayerController: UIViewController {
     }
     
     deinit {
-        self._avplayer.pause()
+        self.stop()
         self.setupPlayerItem(nil)
         
         self.removePlayerObservers()
