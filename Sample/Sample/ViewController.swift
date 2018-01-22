@@ -280,7 +280,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         self.addActions(for: type, to: alertController)
         
-        alertController.show(animated: true, vibrate: true, serial: false, completion: nil)
+        alertController.show(animated: true, vibrate: true, serial: true, completion: nil)
     }
     
     func addActions(for type: SuperAlertType, to alertController: SuperAlertController) {
@@ -288,9 +288,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         case .activityIndicator:
             break
         default:
-            alertController.addAction(image: nil, title: "Done", color: azure, style: .default, isEnabled: true) { (_) in
-                alertController.hide(completion: nil)
-            }
+            alertController.addAction(image: nil, title: "Done", color: azure, style: .default, isEnabled: true, handler: nil)
             alertController.addAction(image: nil, title: "Cancel", color: azure, style: .cancel, isEnabled: true, handler: nil)
             break
         }
@@ -321,6 +319,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let alertController = SuperAlertController.init(style: .actionSheet, source: cell?.contentView, title: type.description, message: type.description, tintColor: azure)
         alertController.addAction(image: nil, title: "Alert", color: azure, style: .default, isEnabled: true) { (_) in
             self.segment.selectedSegmentIndex = 0
+            self.segmentChangesValue(self.segment)
             alertController.hide(completion: {
                 self.tableView(self.tableView, didSelectRowAt: indexPath)
             })
@@ -328,15 +327,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         alertController.addAction(image: nil, title: "ActionSheet", color: azure, style: .default, isEnabled: true) { (_) in
             self.segment.selectedSegmentIndex = 1
+            self.segmentChangesValue(self.segment)
             alertController.hide(completion: {
                 self.tableView(self.tableView, didSelectRowAt: indexPath)
             })
         }
         
-        alertController.addAction(image: nil, title: "Cancel", color: azure, style: .cancel, isEnabled: true) { (_) in
-            alertController.hide(completion: nil)
-        }
-        alertController.show(animated: true, vibrate: true, serial: false, completion: nil)
+        alertController.addAction(image: nil, title: "Cancel", color: azure, style: .cancel, isEnabled: true, handler: nil)
+        alertController.show(animated: true, vibrate: true, serial: true, completion: nil)
     }
 }
 
