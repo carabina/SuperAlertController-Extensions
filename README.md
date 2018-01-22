@@ -1,7 +1,7 @@
 
 <p align="center">
-  <!-- <img src="./Assets/SuperAlertControllerPickers.jpg" alt="SuperAlertControllerPickers"> -->
-  <br/><a href="https://cocoapods.org/pods/SuperAlertControllerPickers">
+  <!-- <img src="./Assets/SuperAlertControllerExtensions.jpg" alt="SuperAlertControllerPickers"> -->
+  <br/><a href="https://cocoapods.org/pods/SuperAlertControllerExtensions">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.5-brightgreen.svg">
   <img alt="Author" src="https://img.shields.io/badge/author-Meniny-blue.svg">
   <img alt="Build Passing" src="https://img.shields.io/badge/build-passing-brightgreen.svg">
@@ -44,7 +44,7 @@ Extensions for [`SuperAlertController`](https://github.com/Meniny/SuperAlertCont
 #### CocoaPods
 
 ```ruby
-pod 'SuperAlertControllerPickers'
+pod 'SuperAlertControllerExtensions'
 ```
 
 ## Contribution
@@ -53,4 +53,4 @@ You are welcome to fork and submit pull requests.
 
 ## License
 
-`SuperAlertController+Pickers` is open-sourced software, licensed under the `MIT` license.
+`SuperAlertController-Extensions` is open-sourced software, licensed under the `MIT` license.
