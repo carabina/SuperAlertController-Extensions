@@ -121,6 +121,21 @@ let azure = #colorLiteral(red: 0.05, green:0.49, blue:0.98, alpha:1.00)
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
+    var alertStyle: UIAlertControllerStyle = .alert
+    
+    @IBOutlet weak var segment: UISegmentedControl!
+    
+    @IBAction func segmentChangesValue(_ sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex {
+        case 0:
+            self.alertStyle = .alert
+            break
+        default:
+            self.alertStyle = .actionSheet
+            break
+        }
+    }
+    
     let dataSource: [SuperAlertType] = [
         .imagePicker(direction: .horizontal),
         .imagePicker(direction: .vertical),
@@ -143,6 +158,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         
         self.title = "SuperAlertController"
+        
         if #available(iOS 11.0, *) {
             self.navigationController?.navigationBar.prefersLargeTitles = true
         }
@@ -155,7 +171,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func alert(type: SuperAlertType) {
-        let alertController = SuperAlertController.init(style: .alert, source: self.view, title: type.title, message: type.message, tintColor: azure)
+        let alertController: SuperAlertController
+        switch type {
+        case .activityIndicator:
+            alertController = SuperAlertController.init(style: .alert, source: self.view, title: type.title, message: type.message, tintColor: azure)
+            break
+        default:
+            alertController = SuperAlertController.init(style: self.alertStyle, source: self.view, title: type.title, message: type.message, tintColor: azure)
+            break
+        }
         
         switch type {
         case .imagePicker(let direction):
@@ -277,7 +301,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let type = dataSource[indexPath.row]
         cell?.textLabel?.text = type.description
         cell?.selectionStyle = .none
-        cell?.accessoryType = .disclosureIndicator
+        cell?.accessoryType = .detailDisclosureButton
         cell?.imageView?.image = type.icon.image
         return cell!
     }
@@ -289,6 +313,30 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let type = dataSource[indexPath.row]
         alert(type: type)
+    }
+    
+    func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath)
+        let type = dataSource[indexPath.row]
+        let alertController = SuperAlertController.init(style: .actionSheet, source: cell?.contentView, title: type.description, message: type.description, tintColor: azure)
+        alertController.addAction(image: nil, title: "Alert", color: azure, style: .default, isEnabled: true) { (_) in
+            self.segment.selectedSegmentIndex = 0
+            alertController.hide(completion: {
+                self.tableView(self.tableView, didSelectRowAt: indexPath)
+            })
+        }
+        
+        alertController.addAction(image: nil, title: "ActionSheet", color: azure, style: .default, isEnabled: true) { (_) in
+            self.segment.selectedSegmentIndex = 1
+            alertController.hide(completion: {
+                self.tableView(self.tableView, didSelectRowAt: indexPath)
+            })
+        }
+        
+        alertController.addAction(image: nil, title: "Cancel", color: azure, style: .cancel, isEnabled: true) { (_) in
+            alertController.hide(completion: nil)
+        }
+        alertController.show(animated: true, vibrate: true, serial: false, completion: nil)
     }
 }
 

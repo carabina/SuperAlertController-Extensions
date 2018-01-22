@@ -32,8 +32,21 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="990-5n-IBM"/>
+                    <navigationItem key="navigationItem" id="990-5n-IBM">
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="a2W-j4-LYz">
+                            <rect key="frame" x="99" y="7" width="177" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="Alert"/>
+                                <segment title="ActionSheet"/>
+                            </segments>
+                            <connections>
+                                <action selector="segmentChangesValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="HrZ-3c-zje"/>
+                            </connections>
+                        </segmentedControl>
+                    </navigationItem>
                     <connections>
+                        <outlet property="segment" destination="a2W-j4-LYz" id="uPN-lI-oot"/>
                         <outlet property="tableView" destination="STo-4E-Y7S" id="NjW-8E-6eA"/>
                     </connections>
                 </viewController>
