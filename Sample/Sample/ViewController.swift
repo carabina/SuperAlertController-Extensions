@@ -8,7 +8,7 @@
 
 import UIKit
 import SuperAlertController
-import SuperAlertControllerPickers
+import SuperAlertControllerExtensions
 
 public enum SuperAlertType {
     case imagePicker(direction: UICollectionViewScrollDirection)

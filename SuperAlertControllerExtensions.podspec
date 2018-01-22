@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   ]
   s.requires_arc     = true
   s.ios.deployment_target = "9.0"
-  s.frameworks       = "Foundation", "UIKit", "AVFoundation", "CoreGraphics", "WebKit"
   s.description      = "The extensions for SuperAlertController"
   s.module_name      = 'SuperAlertControllerExtensions'
+  s.frameworks       = "Foundation", "UIKit", "AVFoundation", "CoreGraphics", "WebKit"
   s.dependency         "SuperAlertController"
 end

@@ -19,7 +19,6 @@
 		172B32CEFB273A043D5022A5 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		5C19E72F20146D2B00E2865A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5C19E73020146D2B00E2865A /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
-		5C19E73120146D2B00E2865A /* SuperAlertControllerPickers.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = SuperAlertControllerPickers.podspec; path = ../SuperAlertControllerPickers.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C19E73220146D2B00E2865A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		5C635FE92013A54A00979833 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C635FEC2013A54A00979833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		5C635FF32013A54A00979833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C635FF62013A54A00979833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C635FF82013A54A00979833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D14BB920157FF5002BC6FC /* SuperAlertControllerExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = SuperAlertControllerExtensions.podspec; path = ../SuperAlertControllerExtensions.podspec; sourceTree = "<group>"; };
 		7A37B309AD5828B5B143EDD0 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		F28F5990CE08620B07F3F4C2 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -50,7 +50,7 @@
 				5C19E73020146D2B00E2865A /* LICENSE.md */,
 				5C19E73220146D2B00E2865A /* Package.swift */,
 				5C19E72F20146D2B00E2865A /* README.md */,
-				5C19E73120146D2B00E2865A /* SuperAlertControllerPickers.podspec */,
+				64D14BB920157FF5002BC6FC /* SuperAlertControllerExtensions.podspec */,
 				5C635FEB2013A54A00979833 /* Sample */,
 				5C635FEA2013A54A00979833 /* Products */,
 				BC81E6D6914E0166D25CD82A /* Pods */,
@@ -193,12 +193,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Sample/Pods-Sample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SuperAlertController/SuperAlertController.framework",
-				"${BUILT_PRODUCTS_DIR}/SuperAlertControllerPickers/SuperAlertControllerPickers.framework",
+				"${BUILT_PRODUCTS_DIR}/SuperAlertControllerExtensions/SuperAlertControllerExtensions.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SuperAlertController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SuperAlertControllerPickers.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SuperAlertControllerExtensions.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

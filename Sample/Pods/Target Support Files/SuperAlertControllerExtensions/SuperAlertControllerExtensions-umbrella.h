@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double SuperAlertControllerPickersVersionNumber;
-FOUNDATION_EXPORT const unsigned char SuperAlertControllerPickersVersionString[];
+FOUNDATION_EXPORT double SuperAlertControllerExtensionsVersionNumber;
+FOUNDATION_EXPORT const unsigned char SuperAlertControllerExtensionsVersionString[];
 

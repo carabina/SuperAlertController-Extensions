@@ -624,9 +624,9 @@ extension VideoPlayerController {
     }
     
     @objc internal func handleApplicationDidBecomeActive(_ aNotification: Notification) {
-        if self.playbackState != .playing && self.playbackResumesWhenBecameActive {
-            self.play()
-        }
+//        if self.playbackState != .playing && self.playbackResumesWhenBecameActive {
+//            self.play()
+//        }
     }
     
     @objc internal func handleApplicationDidEnterBackground(_ aNotification: Notification) {
@@ -636,9 +636,9 @@ extension VideoPlayerController {
     }
     
     @objc internal func handleApplicationWillEnterForeground(_ aNoticiation: Notification) {
-        if self.playbackState != .playing && self.playbackResumesWhenEnteringForeground {
-            self.play()
-        }
+//        if self.playbackState != .playing && self.playbackResumesWhenEnteringForeground {
+//            self.play()
+//        }
     }
     
 }
@@ -695,6 +695,7 @@ extension VideoPlayerController {
     }
     
     internal func removePlayerObservers() {
+        NotificationCenter.default.removeObserver(self)
         if let observer = self._timeObserver {
             self._avplayer.removeTimeObserver(observer)
         }
